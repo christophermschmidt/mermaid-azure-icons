@@ -1,0 +1,10 @@
+# PLACEHOLDER — implemented in Phase 3
+# Weekly GitHub Actions workflow to auto-update icons from upstream sources
+name: Update Icons (placeholder)
+on:
+  workflow_dispatch:
+jobs:
+  placeholder:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Workflow not yet implemented. See Phase 3 in build prompt."

@@ -1,0 +1,60 @@
+{
+  "name": "mermaid-azure-icons",
+  "version": "0.1.0",
+  "description": "Mermaid architecture-beta icon packs for Microsoft Azure and Fabric services. Auto-synced from official Microsoft sources.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./fabric": "./dist/fabric.json",
+    "./azure": "./dist/azure.json"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "fetch": "ts-node scripts/fetch.ts",
+    "convert": "ts-node scripts/convert.ts",
+    "build:icons": "ts-node scripts/build.ts",
+    "build:lib": "tsc",
+    "build": "npm run build:icons && npm run build:lib",
+    "update": "npm run fetch && npm run convert && npm run build",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mermaid",
+    "azure",
+    "microsoft-fabric",
+    "iconify",
+    "architecture-diagram",
+    "icons",
+    "architecture-beta"
+  ],
+  "author": "Christopher Schmidt",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christophermschmidt/mermaid-azure-icons.git"
+  },
+  "homepage": "https://github.com/christophermschmidt/mermaid-azure-icons#readme",
+  "bugs": {
+    "url": "https://github.com/christophermschmidt/mermaid-azure-icons/issues"
+  },
+  "devDependencies": {
+    "@fabric-msft/svg-icons": "latest",
+    "@types/node": "^20.0.0",
+    "svgo": "^3.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "mermaid": ">=10.0.0"
+  }
+}

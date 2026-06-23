@@ -8,13 +8,13 @@
 | scripts/fetch.ts | ✅ Done | Phase 1 |
 | scripts/convert.ts | ✅ Done | Phase 2 |
 | scripts/build.ts | ✅ Done | Phase 2 |
-| src/index.ts | ⬜ Not started | |
+| src/index.ts | ✅ Done | Phase 4 |
 | dist/fabric.json | ✅ Done | Phase 2 |
 | dist/azure.json | ✅ Done | Phase 2 |
 | .github/workflows/update-icons.yml | ✅ Done | Phase 3 |
 | test/smoke.html | ✅ Done | Phase 2 |
 | docs/icon-catalogue.md | ✅ Done | Phase 2 |
-| docs/usage-examples.md | ⬜ Not started | |
+| docs/usage-examples.md | ✅ Done | Phase 4 |
 | npm publish | ⬜ Not started | |
 
 ## Icon counts (fill in after Phase 2)

@@ -1,22 +1,21 @@
 # Checkpoint
 
 ## Last completed phase
-Phase 0 — Repository scaffold
+Phase 1 — Slug utilities, ID namespacing, fetch script
 
 ## What exists
 - Full directory structure created
 - All config files written (package.json, tsconfig.json, .gitignore, LICENSE)
-- All source files are stubs with PLACEHOLDER comments
+- scripts/utils/slug.ts implemented
+- scripts/utils/namespace-ids.ts implemented
+- scripts/fetch.ts implemented
 - README.md, CONTRIBUTING.md written
 - .github/copilot-instructions.md written with initial icon slug tables
-- Initial commit pushed to origin main
+- Phase 1 commit pushed to origin main
 
 ## What is NOT done yet
-- scripts/fetch.ts — stub only
 - scripts/convert.ts — stub only
 - scripts/build.ts — stub only
-- scripts/utils/namespace-ids.ts — stub only
-- scripts/utils/slug.ts — stub only
 - src/index.ts — stub only
 - No icons fetched or built
 - dist/ is empty
@@ -25,5 +24,5 @@ Phase 0 — Repository scaffold
 None yet.
 
 ## Next phase
-Phase 1 — Implement scripts/utils/slug.ts, scripts/utils/namespace-ids.ts, scripts/fetch.ts
-Start by reading this file and STATUS.md, then paste the Phase 1 prompt block.
+Phase 2 — Implement scripts/convert.ts and scripts/build.ts
+Start by reading this file and STATUS.md, then paste the Phase 2 prompt block.

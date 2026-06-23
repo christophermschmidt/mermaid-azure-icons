@@ -3,9 +3,9 @@
 | Component | Status | Notes |
 |-----------|--------|-------|
 | Repo scaffold | ✅ Done | Phase 0 |
-| scripts/utils/slug.ts | ⬜ Not started | |
-| scripts/utils/namespace-ids.ts | ⬜ Not started | |
-| scripts/fetch.ts | ⬜ Not started | |
+| scripts/utils/slug.ts | ✅ Done | Phase 1 |
+| scripts/utils/namespace-ids.ts | ✅ Done | Phase 1 |
+| scripts/fetch.ts | ✅ Done | Phase 1 |
 | scripts/convert.ts | ⬜ Not started | |
 | scripts/build.ts | ⬜ Not started | |
 | src/index.ts | ⬜ Not started | |

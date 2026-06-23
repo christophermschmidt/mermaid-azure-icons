@@ -11,7 +11,7 @@
 | src/index.ts | ⬜ Not started | |
 | dist/fabric.json | ✅ Done | Phase 2 |
 | dist/azure.json | ✅ Done | Phase 2 |
-| .github/workflows/update-icons.yml | ⬜ Not started | |
+| .github/workflows/update-icons.yml | ✅ Done | Phase 3 |
 | test/smoke.html | ✅ Done | Phase 2 |
 | docs/icon-catalogue.md | ✅ Done | Phase 2 |
 | docs/usage-examples.md | ⬜ Not started | |

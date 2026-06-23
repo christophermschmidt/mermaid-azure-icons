@@ -23,22 +23,32 @@ async function resetDirectory(dir: string): Promise<void> {
 async function fetchFabricIcons(): Promise<{ count: number; version: string }> {
 	let packageJsonPath: string;
 	try {
-		packageJsonPath = require.resolve("@fabric-msft/svg-icons/package.json");
+		packageJsonPath = path.join(path.dirname(require.resolve("@fabric-msft/svg-icons")), "package.json");
 	} catch {
 		console.error("Run npm install first");
 		process.exit(1);
 	}
 
 	const packageDir = path.dirname(packageJsonPath);
-	const svgSourceDir = path.join(packageDir, "dist", "svg");
+	const svgSourceCandidates = [
+		path.join(packageDir, "dist", "svg"),
+		path.join(packageDir, "svg"),
+	];
 
-	try {
-		const stat = await fs.stat(svgSourceDir);
-		if (!stat.isDirectory()) {
-			console.error("Run npm install first");
-			process.exit(1);
+	let svgSourceDir: string | null = null;
+	for (const candidate of svgSourceCandidates) {
+		try {
+			const stat = await fs.stat(candidate);
+			if (stat.isDirectory()) {
+				svgSourceDir = candidate;
+				break;
+			}
+		} catch {
+			// Try the next candidate.
 		}
-	} catch {
+	}
+
+	if (!svgSourceDir) {
 		console.error("Run npm install first");
 		process.exit(1);
 	}

@@ -1,2 +1,156 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>mermaid-azure-icons smoke test</title>
+		<style>
+			:root {
+				color-scheme: light;
+			}
 
-Smoke test not yet implemented. See CHECKPOINT.md.
+			body {
+				margin: 0;
+				font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+				background: #f3f7fb;
+				color: #10243a;
+			}
+
+			main {
+				max-width: 1100px;
+				margin: 0 auto;
+				padding: 24px;
+			}
+
+			h1 {
+				margin: 0 0 14px;
+				font-size: 1.5rem;
+			}
+
+			.banner {
+				border-radius: 10px;
+				padding: 12px 14px;
+				margin-bottom: 16px;
+				font-weight: 600;
+			}
+
+			.ok {
+				background: #dff6e6;
+				color: #0e6530;
+				border: 1px solid #86d3a4;
+			}
+
+			.warn {
+				background: #ffe3e3;
+				color: #952323;
+				border: 1px solid #f3a1a1;
+			}
+
+			#diagram {
+				border-radius: 12px;
+				background: white;
+				border: 1px solid #d8e1ea;
+				padding: 18px;
+				overflow-x: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<h1>Smoke Test: Mermaid Azure and Fabric Icon Packs</h1>
+			<div id="status" class="banner">Loading icon packs and rendering diagram...</div>
+			<div id="diagram"></div>
+		</main>
+
+		<script type="module">
+			import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+
+			const diagramText = `
+architecture-beta
+	group ws(azure:microsoft-fabric)[Fabric Workspace]
+	service lh(fabric:lakehouse)[Lakehouse] in ws
+	service es(fabric:eventstream)[Eventstream] in ws
+	service eh(fabric:eventhouse)[Eventhouse] in ws
+	service adf(azure:data-factory)[ADF] outside
+	adf:R --> L:lh
+	lh:R --> L:es
+	es:R --> L:eh
+`;
+
+			const expectedIcons = [
+				"azure:microsoft-fabric",
+				"fabric:lakehouse",
+				"fabric:eventstream",
+				"fabric:eventhouse",
+				"azure:data-factory",
+			];
+
+			const status = document.getElementById("status");
+			const diagram = document.getElementById("diagram");
+
+			function setStatus(type, text) {
+				status.className = `banner ${type}`;
+				status.textContent = text;
+			}
+
+			async function loadPack(url) {
+				const response = await fetch(url);
+				if (!response.ok) {
+					throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+				}
+				return response.json();
+			}
+
+			function iconsMissingFromPack(expected, fabricPack, azurePack) {
+				return expected.filter((iconName) => {
+					const [prefix, slug] = iconName.split(":");
+					if (!prefix || !slug) {
+						return true;
+					}
+					if (prefix === "fabric") {
+						return !fabricPack.icons[slug];
+					}
+					if (prefix === "azure") {
+						return !azurePack.icons[slug];
+					}
+					return true;
+				});
+			}
+
+			try {
+				const [fabricPack, azurePack] = await Promise.all([
+					loadPack("../dist/fabric.json"),
+					loadPack("../dist/azure.json"),
+				]);
+
+				mermaid.registerIconPacks([
+					{ name: "fabric", icons: fabricPack },
+					{ name: "azure", icons: azurePack },
+				]);
+
+				mermaid.initialize({
+					startOnLoad: false,
+					securityLevel: "loose",
+				});
+
+				const { svg } = await mermaid.render("smoke-diagram", diagramText);
+				diagram.innerHTML = svg;
+
+				const missingQuestionNodes = Array.from(diagram.querySelectorAll("g"))
+					.filter((node) => node.textContent && node.textContent.trim() === "?")
+					.length;
+
+				const missingByPack = iconsMissingFromPack(expectedIcons, fabricPack, azurePack);
+				if (missingQuestionNodes > 0 || missingByPack.length > 0) {
+					const names = missingByPack.length > 0 ? missingByPack.join(", ") : "unknown icon(s)";
+					setStatus("warn", `Missing icons detected: ${names}`);
+				} else {
+					setStatus("ok", "All icons loaded successfully");
+				}
+			} catch (error) {
+				const message = error instanceof Error ? error.message : String(error);
+				setStatus("warn", `Smoke test failed: ${message}`);
+			}
+		</script>
+	</body>
+</html>

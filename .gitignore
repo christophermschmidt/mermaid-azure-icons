@@ -1,5 +1,7 @@
 node_modules/
-dist/
+# dist/ is intentionally tracked — icon JSON files serve as CDN artifacts
+dist/*.js
+dist/*.d.ts
 raw/
 *.tsbuildinfo
 .env

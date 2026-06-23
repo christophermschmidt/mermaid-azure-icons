@@ -67,60 +67,1920 @@ When generating an architecture diagram:
 
 | Slug | Service |
 |------|---------|
-| lakehouse | Fabric Lakehouse |
-| eventhouse | Eventhouse / KQL Database |
-| eventstream | Fabric Eventstream |
-| data-factory | Data Factory Pipelines |
-| semantic-model | Power BI Semantic Model |
-| notebook | Fabric Notebook |
-| warehouse | Fabric Data Warehouse |
-| dataflow | Dataflow Gen2 |
-| ml-model | ML Model / MLflow |
-| reflex | Fabric Activator |
-| real-time-dashboard | Real-Time Dashboard |
-| kql-queryset | KQL Queryset |
-| pipeline | Data Pipeline |
-| spark-job | Spark Job Definition |
-| mirror | Fabric Mirroring |
-| onelake | OneLake |
-| fabric-capacity | Fabric Capacity |
-| ai-skill | AI Skill |
+| add-pipeline-20-non-item | Add Pipeline 20 Non Item |
+| add-pipeline-24-non-item | Add Pipeline 24 Non Item |
+| add-pipeline-32-non-item | Add Pipeline 32 Non Item |
+| add-pipeline-40-non-item | Add Pipeline 40 Non Item |
+| add-pipeline-48-non-item | Add Pipeline 48 Non Item |
+| add-pipeline-64-non-item | Add Pipeline 64 Non Item |
+| airplane-12-filled | Airplane 12 Filled |
+| airplane-12-regular | Airplane 12 Regular |
+| app-folder-pulse-20-filled | App Folder Pulse 20 Filled |
+| app-folder-pulse-20-regular | App Folder Pulse 20 Regular |
+| apps | Apps |
+| apps-40 | Apps 40 |
+| apps-64 | Apps 64 |
+| arrow-curved-right-circle-20-filled | Arrow Curved Right Circle 20 Filled |
+| arrow-curved-right-circle-20-regular | Arrow Curved Right Circle 20 Regular |
+| arrow-down-double-12-filled | Arrow Down Double 12 Filled |
+| arrow-down-double-12-regular | Arrow Down Double 12 Regular |
+| arrow-down-double-16-filled | Arrow Down Double 16 Filled |
+| arrow-down-double-16-regular | Arrow Down Double 16 Regular |
+| arrow-down-double-20-filled | Arrow Down Double 20 Filled |
+| arrow-down-double-20-regular | Arrow Down Double 20 Regular |
+| arrow-down-double-24-filled | Arrow Down Double 24 Filled |
+| arrow-down-double-24-regular | Arrow Down Double 24 Regular |
+| arrow-down-double-wrap-12-filled | Arrow Down Double Wrap 12 Filled |
+| arrow-down-double-wrap-12-regular | Arrow Down Double Wrap 12 Regular |
+| arrow-down-double-wrap-20-filled | Arrow Down Double Wrap 20 Filled |
+| arrow-down-double-wrap-20-regular | Arrow Down Double Wrap 20 Regular |
+| arrow-down-drill-circle-20-filled | Arrow Down Drill Circle 20 Filled |
+| arrow-down-drill-circle-20-regular | Arrow Down Drill Circle 20 Regular |
+| arrow-exit-multiple-20-filled | Arrow Exit Multiple 20 Filled |
+| arrow-exit-multiple-20-regular | Arrow Exit Multiple 20 Regular |
+| arrow-export-import-20-filled | Arrow Export Import 20 Filled |
+| arrow-export-import-20-regular | Arrow Export Import 20 Regular |
+| arrow-forward-circle-20-filled | Arrow Forward Circle 20 Filled |
+| arrow-forward-circle-20-regular | Arrow Forward Circle 20 Regular |
+| arrow-right-double-12-filled | Arrow Right Double 12 Filled |
+| arrow-right-double-12-regular | Arrow Right Double 12 Regular |
+| arrow-right-double-20-filled | Arrow Right Double 20 Filled |
+| arrow-right-double-20-regular | Arrow Right Double 20 Regular |
+| arrow-right-double-wrap-12-filled | Arrow Right Double Wrap 12 Filled |
+| arrow-right-double-wrap-12-regular | Arrow Right Double Wrap 12 Regular |
+| arrow-right-double-wrap-20-filled | Arrow Right Double Wrap 20 Filled |
+| arrow-right-double-wrap-20-regular | Arrow Right Double Wrap 20 Regular |
+| arrow-sort-12-filled | Arrow Sort 12 Filled |
+| arrow-sort-12-regular | Arrow Sort 12 Regular |
+| arrow-sync-settings-16-filled | Arrow Sync Settings 16 Filled |
+| arrow-sync-settings-16-regular | Arrow Sync Settings 16 Regular |
+| arrow-trending-circle-32-filled | Arrow Trending Circle 32 Filled |
+| arrow-trending-circle-32-regular | Arrow Trending Circle 32 Regular |
+| asterisk-20-filled | Asterisk 20 Filled |
+| asterisk-20-regular | Asterisk 20 Regular |
+| asterisk-circle-20-filled | Asterisk Circle 20 Filled |
+| asterisk-circle-20-regular | Asterisk Circle 20 Regular |
+| beaker-flash-20-filled | Beaker Flash 20 Filled |
+| beaker-flash-20-regular | Beaker Flash 20 Regular |
+| beaker-flash-32-filled | Beaker Flash 32 Filled |
+| beaker-flash-32-regular | Beaker Flash 32 Regular |
+| binoculars-16-filled | Binoculars 16 Filled |
+| binoculars-16-regular | Binoculars 16 Regular |
+| binoculars-20-filled | Binoculars 20 Filled |
+| binoculars-20-regular | Binoculars 20 Regular |
+| binoculars-24-filled | Binoculars 24 Filled |
+| binoculars-24-regular | Binoculars 24 Regular |
+| binoculars-32-filled | Binoculars 32 Filled |
+| binoculars-32-regular | Binoculars 32 Regular |
+| book-database-20-filled | Book Database 20 Filled |
+| book-database-20-regular | Book Database 20 Regular |
+| book-open-data-cloud-12-filled | Book Open Data Cloud 12 Filled |
+| book-open-data-cloud-12-regular | Book Open Data Cloud 12 Regular |
+| book-open-data-cloud-20-filled | Book Open Data Cloud 20 Filled |
+| book-open-data-cloud-20-regular | Book Open Data Cloud 20 Regular |
+| book-open-data-cloud-24-filled | Book Open Data Cloud 24 Filled |
+| book-open-data-cloud-24-regular | Book Open Data Cloud 24 Regular |
+| bookmark-data-bar-vertical-20-filled | Bookmark Data Bar Vertical 20 Filled |
+| bookmark-data-bar-vertical-20-regular | Bookmark Data Bar Vertical 20 Regular |
+| border-inside-all-20-filled | Border Inside All 20 Filled |
+| border-inside-all-20-regular | Border Inside All 20 Regular |
+| border-inside-horizontal-20-filled | Border Inside Horizontal 20 Filled |
+| border-inside-horizontal-20-regular | Border Inside Horizontal 20 Regular |
+| border-inside-vertical-20-filled | Border Inside Vertical 20 Filled |
+| border-inside-vertical-20-regular | Border Inside Vertical 20 Regular |
+| border-none-eye-20-filled | Border None Eye 20 Filled |
+| border-none-eye-20-regular | Border None Eye 20 Regular |
+| bracket-rectangles-20-filled | Bracket Rectangles 20 Filled |
+| bracket-rectangles-20-regular | Bracket Rectangles 20 Regular |
+| branch-add-16-filled | Branch Add 16 Filled |
+| branch-add-16-regular | Branch Add 16 Regular |
+| branch-add-20-filled | Branch Add 20 Filled |
+| branch-add-20-regular | Branch Add 20 Regular |
+| branch-edit-16-filled | Branch Edit 16 Filled |
+| branch-edit-16-regular | Branch Edit 16 Regular |
+| branch-edit-20-filled | Branch Edit 20 Filled |
+| branch-edit-20-regular | Branch Edit 20 Regular |
+| branch-fork-link-20-filled | Branch Fork Link 20 Filled |
+| branch-fork-link-20-regular | Branch Fork Link 20 Regular |
+| branch-fork-link-24-filled | Branch Fork Link 24 Filled |
+| branch-fork-link-24-regular | Branch Fork Link 24 Regular |
+| branch-fork-link-32-filled | Branch Fork Link 32 Filled |
+| branch-fork-link-32-regular | Branch Fork Link 32 Regular |
+| branch-fork-signal-20-filled | Branch Fork Signal 20 Filled |
+| branch-fork-signal-20-regular | Branch Fork Signal 20 Regular |
+| branch-fork-signal-24-filled | Branch Fork Signal 24 Filled |
+| branch-fork-signal-24-regular | Branch Fork Signal 24 Regular |
+| branch-fork-signal-32-filled | Branch Fork Signal 32 Filled |
+| branch-fork-signal-32-regular | Branch Fork Signal 32 Regular |
+| briefcase-pulse-16-filled | Briefcase Pulse 16 Filled |
+| briefcase-pulse-16-regular | Briefcase Pulse 16 Regular |
+| briefcase-pulse-20-filled | Briefcase Pulse 20 Filled |
+| briefcase-pulse-20-regular | Briefcase Pulse 20 Regular |
+| briefcase-pulse-24-filled | Briefcase Pulse 24 Filled |
+| briefcase-pulse-24-regular | Briefcase Pulse 24 Regular |
+| briefcase-report-20-filled | Briefcase Report 20 Filled |
+| briefcase-report-20-regular | Briefcase Report 20 Regular |
+| briefcase-report-24-filled | Briefcase Report 24 Filled |
+| briefcase-report-24-regular | Briefcase Report 24 Regular |
+| bucket-20-filled | Bucket 20 Filled |
+| bucket-20-regular | Bucket 20 Regular |
+| building-data-20-filled | Building Data 20 Filled |
+| building-data-20-regular | Building Data 20 Regular |
+| building-retail-more-link-20-filled | Building Retail More Link 20 Filled |
+| building-retail-more-link-20-regular | Building Retail More Link 20 Regular |
+| building-retail-more-link-24-filled | Building Retail More Link 24 Filled |
+| building-retail-more-link-24-regular | Building Retail More Link 24 Regular |
+| building-retail-more-link-32-filled | Building Retail More Link 32 Filled |
+| building-retail-more-link-32-regular | Building Retail More Link 32 Regular |
+| calculator-brackets-16-filled | Calculator Brackets 16 Filled |
+| calculator-brackets-16-regular | Calculator Brackets 16 Regular |
+| calculator-brackets-20-filled | Calculator Brackets 20 Filled |
+| calculator-brackets-20-regular | Calculator Brackets 20 Regular |
+| calculator-brackets-number-symbol-16-filled | Calculator Brackets Number Symbol 16 Filled |
+| calculator-brackets-number-symbol-16-regular | Calculator Brackets Number Symbol 16 Regular |
+| calculator-brackets-number-symbol-20-filled | Calculator Brackets Number Symbol 20 Filled |
+| calculator-brackets-number-symbol-20-regular | Calculator Brackets Number Symbol 20 Regular |
+| calculator-multiple-brackets-16-filled | Calculator Multiple Brackets 16 Filled |
+| calculator-multiple-brackets-16-regular | Calculator Multiple Brackets 16 Regular |
+| calculator-multiple-brackets-20-filled | Calculator Multiple Brackets 20 Filled |
+| calculator-multiple-brackets-20-regular | Calculator Multiple Brackets 20 Regular |
+| calculator-multiple-brackets-number-symbol-16-filled | Calculator Multiple Brackets Number Symbol 16 Filled |
+| calculator-multiple-brackets-number-symbol-16-regular | Calculator Multiple Brackets Number Symbol 16 Regular |
+| calculator-multiple-brackets-number-symbol-20-filled | Calculator Multiple Brackets Number Symbol 20 Filled |
+| calculator-multiple-brackets-number-symbol-20-regular | Calculator Multiple Brackets Number Symbol 20 Regular |
+| calculator-number-symbol-16-filled | Calculator Number Symbol 16 Filled |
+| calculator-number-symbol-16-regular | Calculator Number Symbol 16 Regular |
+| calculator-number-symbol-20-filled | Calculator Number Symbol 20 Filled |
+| calculator-number-symbol-20-regular | Calculator Number Symbol 20 Regular |
+| calculator-triangle-16-filled | Calculator Triangle 16 Filled |
+| calculator-triangle-16-regular | Calculator Triangle 16 Regular |
+| calculator-triangle-20-filled | Calculator Triangle 20 Filled |
+| calculator-triangle-20-regular | Calculator Triangle 20 Regular |
+| calendar-ltr-clock-20-filled | Calendar Ltr Clock 20 Filled |
+| calendar-ltr-clock-20-regular | Calendar Ltr Clock 20 Regular |
+| calendar-month-arrow-up-16-filled | Calendar Month Arrow Up 16 Filled |
+| calendar-month-arrow-up-16-regular | Calendar Month Arrow Up 16 Regular |
+| calendar-month-arrow-up-20-filled | Calendar Month Arrow Up 20 Filled |
+| calendar-month-arrow-up-20-regular | Calendar Month Arrow Up 20 Regular |
+| calendar-month-lightning-20-filled | Calendar Month Lightning 20 Filled |
+| calendar-month-lightning-20-regular | Calendar Month Lightning 20 Regular |
+| calendar-month-link-20-filled | Calendar Month Link 20 Filled |
+| calendar-month-link-20-regular | Calendar Month Link 20 Regular |
+| calendar-month-link-24-filled | Calendar Month Link 24 Filled |
+| calendar-month-link-24-regular | Calendar Month Link 24 Regular |
+| calendar-month-link-32-filled | Calendar Month Link 32 Filled |
+| calendar-month-link-32-regular | Calendar Month Link 32 Regular |
+| calendar-month-person-20-filled | Calendar Month Person 20 Filled |
+| calendar-month-person-20-regular | Calendar Month Person 20 Regular |
+| calendar-month-person-24-filled | Calendar Month Person 24 Filled |
+| calendar-month-person-24-regular | Calendar Month Person 24 Regular |
+| calendar-month-person-32-filled | Calendar Month Person 32 Filled |
+| calendar-month-person-32-regular | Calendar Month Person 32 Regular |
+| calendar-month-prohibited-20-filled | Calendar Month Prohibited 20 Filled |
+| calendar-month-prohibited-20-regular | Calendar Month Prohibited 20 Regular |
+| calendar-month-prohibited-24-filled | Calendar Month Prohibited 24 Filled |
+| calendar-month-prohibited-24-regular | Calendar Month Prohibited 24 Regular |
+| calendar-month-prohibited-32-filled | Calendar Month Prohibited 32 Filled |
+| calendar-month-prohibited-32-regular | Calendar Month Prohibited 32 Regular |
+| calendar-month-signal-20-filled | Calendar Month Signal 20 Filled |
+| calendar-month-signal-20-regular | Calendar Month Signal 20 Regular |
+| calendar-month-signal-24-filled | Calendar Month Signal 24 Filled |
+| calendar-month-signal-24-regular | Calendar Month Signal 24 Regular |
+| calendar-month-signal-32-filled | Calendar Month Signal 32 Filled |
+| calendar-month-signal-32-regular | Calendar Month Signal 32 Regular |
+| calendar-month-toolbox-20-filled | Calendar Month Toolbox 20 Filled |
+| calendar-month-toolbox-20-regular | Calendar Month Toolbox 20 Regular |
+| categorize-20-filled | Categorize 20 Filled |
+| categorize-20-regular | Categorize 20 Regular |
+| circle-chart-20-filled | Circle Chart 20 Filled |
+| circle-chart-20-regular | Circle Chart 20 Regular |
+| circle-group-16-filled | Circle Group 16 Filled |
+| circle-group-16-regular | Circle Group 16 Regular |
+| circle-group-20-filled | Circle Group 20 Filled |
+| circle-group-20-regular | Circle Group 20 Regular |
+| circle-group-32-filled | Circle Group 32 Filled |
+| circle-group-32-regular | Circle Group 32 Regular |
+| circle-tree-16-filled | Circle Tree 16 Filled |
+| circle-tree-16-regular | Circle Tree 16 Regular |
+| circle-tree-20-filled | Circle Tree 20 Filled |
+| circle-tree-20-regular | Circle Tree 20 Regular |
+| cloud-arrow-up-down-20-filled | Cloud Arrow Up Down 20 Filled |
+| cloud-arrow-up-down-20-regular | Cloud Arrow Up Down 20 Regular |
+| cloud-endpoint-20-filled | Cloud Endpoint 20 Filled |
+| cloud-endpoint-20-regular | Cloud Endpoint 20 Regular |
+| code-text-flash-20-filled | Code Text Flash 20 Filled |
+| code-text-flash-20-regular | Code Text Flash 20 Regular |
+| cohort | Cohort |
+| cohort-40 | Cohort 40 |
+| cohort-64 | Cohort 64 |
+| column-double-caret-20-filled | Column Double Caret 20 Filled |
+| column-double-caret-20-regular | Column Double Caret 20 Regular |
+| column-inline-20-filled | Column Inline 20 Filled |
+| column-inline-20-regular | Column Inline 20 Regular |
+| column-relationship-16-filled | Column Relationship 16 Filled |
+| column-relationship-16-regular | Column Relationship 16 Regular |
+| column-relationship-20-filled | Column Relationship 20 Filled |
+| column-relationship-20-regular | Column Relationship 20 Regular |
+| column-single-20-filled | Column Single 20 Filled |
+| column-single-20-regular | Column Single 20 Regular |
+| column-uneven-20-filled | Column Uneven 20 Filled |
+| column-uneven-20-regular | Column Uneven 20 Regular |
+| commit-20-filled | Commit 20 Filled |
+| commit-20-regular | Commit 20 Regular |
+| commit-circle-20-filled | Commit Circle 20 Filled |
+| commit-circle-20-regular | Commit Circle 20 Regular |
+| connector-20-filled | Connector 20 Filled |
+| connector-20-regular | Connector 20 Regular |
+| copilot-16-color | Copilot 16 Color |
+| copilot-16-filled | Copilot 16 Filled |
+| copilot-16-regular | Copilot 16 Regular |
+| copilot-20-color | Copilot 20 Color |
+| copilot-20-filled | Copilot 20 Filled |
+| copilot-20-regular | Copilot 20 Regular |
+| copilot-24-color | Copilot 24 Color |
+| copilot-24-filled | Copilot 24 Filled |
+| copilot-24-regular | Copilot 24 Regular |
+| copilot-28-color | Copilot 28 Color |
+| copilot-28-filled | Copilot 28 Filled |
+| copilot-28-regular | Copilot 28 Regular |
+| copilot-32-color | Copilot 32 Color |
+| copilot-32-filled | Copilot 32 Filled |
+| copilot-32-regular | Copilot 32 Regular |
+| copilot-48-color | Copilot 48 Color |
+| copilot-48-filled | Copilot 48 Filled |
+| copilot-48-regular | Copilot 48 Regular |
+| copy-job | Copy Job |
+| copy-job-40 | Copy Job 40 |
+| copy-job-64 | Copy Job 64 |
+| cube-cone-arrow-curved-right-20-filled | Cube Cone Arrow Curved Right 20 Filled |
+| cube-cone-arrow-curved-right-20-regular | Cube Cone Arrow Curved Right 20 Regular |
+| cube-cone-arrow-curved-right-new-20-filled | Cube Cone Arrow Curved Right New 20 Filled |
+| cube-cone-arrow-curved-right-new-20-regular | Cube Cone Arrow Curved Right New 20 Regular |
+| cube-cone-arrow-forward-20-filled | Cube Cone Arrow Forward 20 Filled |
+| cube-cone-arrow-forward-20-regular | Cube Cone Arrow Forward 20 Regular |
+| cube-cone-sphere-20-filled | Cube Cone Sphere 20 Filled |
+| cube-cone-sphere-20-regular | Cube Cone Sphere 20 Regular |
+| custom-streaming-connector | Custom Streaming Connector |
+| custom-streaming-connector-40 | Custom Streaming Connector 40 |
+| custom-streaming-connector-64 | Custom Streaming Connector 64 |
+| dashboard | Dashboard |
+| dashboard-40 | Dashboard 40 |
+| dashboard-64 | Dashboard 64 |
 | data-agent | Data Agent |
+| data-agent-40 | Data Agent 40 |
+| data-agent-64 | Data Agent 64 |
+| data-area-location-20-filled | Data Area Location 20 Filled |
+| data-area-location-20-regular | Data Area Location 20 Regular |
+| data-bar-vertical-diagonal-up-right-20-filled | Data Bar Vertical Diagonal Up Right 20 Filled |
+| data-bar-vertical-diagonal-up-right-20-regular | Data Bar Vertical Diagonal Up Right 20 Regular |
+| data-bar-vertical-edit-20-filled | Data Bar Vertical Edit 20 Filled |
+| data-bar-vertical-edit-20-regular | Data Bar Vertical Edit 20 Regular |
+| data-bar-vertical-highlight-20-filled | Data Bar Vertical Highlight 20 Filled |
+| data-bar-vertical-highlight-20-regular | Data Bar Vertical Highlight 20 Regular |
+| data-bar-vertical-lightning-20-filled | Data Bar Vertical Lightning 20 Filled |
+| data-bar-vertical-lightning-20-regular | Data Bar Vertical Lightning 20 Regular |
+| data-bar-vertical-phone-16-filled | Data Bar Vertical Phone 16 Filled |
+| data-bar-vertical-phone-16-regular | Data Bar Vertical Phone 16 Regular |
+| data-bar-vertical-phone-20-filled | Data Bar Vertical Phone 20 Filled |
+| data-bar-vertical-phone-20-regular | Data Bar Vertical Phone 20 Regular |
+| data-bar-vertical-prohibited-16-filled | Data Bar Vertical Prohibited 16 Filled |
+| data-bar-vertical-prohibited-16-regular | Data Bar Vertical Prohibited 16 Regular |
+| data-bar-vertical-prohibited-20-filled | Data Bar Vertical Prohibited 20 Filled |
+| data-bar-vertical-prohibited-20-regular | Data Bar Vertical Prohibited 20 Regular |
+| data-bar-vertical-prohibited-24-filled | Data Bar Vertical Prohibited 24 Filled |
+| data-bar-vertical-prohibited-24-regular | Data Bar Vertical Prohibited 24 Regular |
+| data-bar-vertical-prohibited-32-filled | Data Bar Vertical Prohibited 32 Filled |
+| data-bar-vertical-prohibited-32-regular | Data Bar Vertical Prohibited 32 Regular |
+| data-engineering-16-color | Data Engineering 16 Color |
+| data-engineering-16-filled | Data Engineering 16 Filled |
+| data-engineering-16-regular | Data Engineering 16 Regular |
+| data-engineering-20-color | Data Engineering 20 Color |
+| data-engineering-20-filled | Data Engineering 20 Filled |
+| data-engineering-20-regular | Data Engineering 20 Regular |
+| data-engineering-24-color | Data Engineering 24 Color |
+| data-engineering-24-filled | Data Engineering 24 Filled |
+| data-engineering-24-regular | Data Engineering 24 Regular |
+| data-engineering-28-color | Data Engineering 28 Color |
+| data-engineering-28-filled | Data Engineering 28 Filled |
+| data-engineering-28-regular | Data Engineering 28 Regular |
+| data-engineering-32-color | Data Engineering 32 Color |
+| data-engineering-32-filled | Data Engineering 32 Filled |
+| data-engineering-32-regular | Data Engineering 32 Regular |
+| data-engineering-48-color | Data Engineering 48 Color |
+| data-engineering-48-filled | Data Engineering 48 Filled |
+| data-engineering-48-regular | Data Engineering 48 Regular |
+| data-factory | Data Factory |
+| data-factory-16-color | Data Factory 16 Color |
+| data-factory-16-filled | Data Factory 16 Filled |
+| data-factory-16-regular | Data Factory 16 Regular |
+| data-factory-20-color | Data Factory 20 Color |
+| data-factory-20-filled | Data Factory 20 Filled |
+| data-factory-20-regular | Data Factory 20 Regular |
+| data-factory-24-color | Data Factory 24 Color |
+| data-factory-24-filled | Data Factory 24 Filled |
+| data-factory-24-regular | Data Factory 24 Regular |
+| data-factory-28-color | Data Factory 28 Color |
+| data-factory-28-filled | Data Factory 28 Filled |
+| data-factory-28-regular | Data Factory 28 Regular |
+| data-factory-32-color | Data Factory 32 Color |
+| data-factory-32-filled | Data Factory 32 Filled |
+| data-factory-32-regular | Data Factory 32 Regular |
+| data-factory-40 | Data Factory 40 |
+| data-factory-48-color | Data Factory 48 Color |
+| data-factory-48-filled | Data Factory 48 Filled |
+| data-factory-48-regular | Data Factory 48 Regular |
+| data-factory-64 | Data Factory 64 |
+| data-graph-20-filled | Data Graph 20 Filled |
+| data-graph-20-regular | Data Graph 20 Regular |
+| data-histogram-function-16-filled | Data Histogram Function 16 Filled |
+| data-histogram-function-16-regular | Data Histogram Function 16 Regular |
+| data-histogram-function-20-filled | Data Histogram Function 20 Filled |
+| data-histogram-function-20-regular | Data Histogram Function 20 Regular |
+| data-quality | Data Quality |
+| data-quality-40 | Data Quality 40 |
+| data-quality-64 | Data Quality 64 |
+| data-science-16-color | Data Science 16 Color |
+| data-science-16-filled | Data Science 16 Filled |
+| data-science-16-regular | Data Science 16 Regular |
+| data-science-20-color | Data Science 20 Color |
+| data-science-20-filled | Data Science 20 Filled |
+| data-science-20-regular | Data Science 20 Regular |
+| data-science-24-color | Data Science 24 Color |
+| data-science-24-filled | Data Science 24 Filled |
+| data-science-24-regular | Data Science 24 Regular |
+| data-science-28-color | Data Science 28 Color |
+| data-science-28-filled | Data Science 28 Filled |
+| data-science-28-regular | Data Science 28 Regular |
+| data-science-32-color | Data Science 32 Color |
+| data-science-32-filled | Data Science 32 Filled |
+| data-science-32-regular | Data Science 32 Regular |
+| data-science-48-color | Data Science 48 Color |
+| data-science-48-filled | Data Science 48 Filled |
+| data-science-48-regular | Data Science 48 Regular |
+| data-tree-20-filled | Data Tree 20 Filled |
+| data-tree-20-regular | Data Tree 20 Regular |
+| data-warehouse | Data Warehouse |
+| data-warehouse-16-color | Data Warehouse 16 Color |
+| data-warehouse-16-filled | Data Warehouse 16 Filled |
+| data-warehouse-16-regular | Data Warehouse 16 Regular |
+| data-warehouse-20-color | Data Warehouse 20 Color |
+| data-warehouse-20-filled | Data Warehouse 20 Filled |
+| data-warehouse-20-regular | Data Warehouse 20 Regular |
+| data-warehouse-24-color | Data Warehouse 24 Color |
+| data-warehouse-24-filled | Data Warehouse 24 Filled |
+| data-warehouse-24-regular | Data Warehouse 24 Regular |
+| data-warehouse-28-color | Data Warehouse 28 Color |
+| data-warehouse-28-filled | Data Warehouse 28 Filled |
+| data-warehouse-28-regular | Data Warehouse 28 Regular |
+| data-warehouse-32-color | Data Warehouse 32 Color |
+| data-warehouse-32-filled | Data Warehouse 32 Filled |
+| data-warehouse-32-regular | Data Warehouse 32 Regular |
+| data-warehouse-40 | Data Warehouse 40 |
+| data-warehouse-48-color | Data Warehouse 48 Color |
+| data-warehouse-48-filled | Data Warehouse 48 Filled |
+| data-warehouse-48-regular | Data Warehouse 48 Regular |
+| data-warehouse-64 | Data Warehouse 64 |
+| database-add-20-filled | Database Add 20 Filled |
+| database-add-20-regular | Database Add 20 Regular |
+| database-arrow-forward-16-filled | Database Arrow Forward 16 Filled |
+| database-arrow-forward-16-regular | Database Arrow Forward 16 Regular |
+| database-arrow-forward-20-filled | Database Arrow Forward 20 Filled |
+| database-arrow-forward-20-regular | Database Arrow Forward 20 Regular |
+| database-arrow-forward-24-filled | Database Arrow Forward 24 Filled |
+| database-arrow-forward-24-regular | Database Arrow Forward 24 Regular |
+| database-arrow-right-enter-20-filled | Database Arrow Right Enter 20 Filled |
+| database-arrow-right-enter-20-regular | Database Arrow Right Enter 20 Regular |
+| database-arrow-sync-16-filled | Database Arrow Sync 16 Filled |
+| database-arrow-sync-16-regular | Database Arrow Sync 16 Regular |
+| database-arrow-sync-20-filled | Database Arrow Sync 20 Filled |
+| database-arrow-sync-20-regular | Database Arrow Sync 20 Regular |
+| database-asterisk-20-filled | Database Asterisk 20 Filled |
+| database-asterisk-20-regular | Database Asterisk 20 Regular |
+| database-checkmark-20-filled | Database Checkmark 20 Filled |
+| database-checkmark-20-regular | Database Checkmark 20 Regular |
+| database-crown-20-filled | Database Crown 20 Filled |
+| database-crown-20-regular | Database Crown 20 Regular |
+| database-dismiss-20-filled | Database Dismiss 20 Filled |
+| database-dismiss-20-regular | Database Dismiss 20 Regular |
+| database-globe-20-filled | Database Globe 20 Filled |
+| database-globe-20-regular | Database Globe 20 Regular |
+| database-kql-20-filled | Database Kql 20 Filled |
+| database-kql-20-regular | Database Kql 20 Regular |
+| database-kql-24-filled | Database Kql 24 Filled |
+| database-kql-24-regular | Database Kql 24 Regular |
+| database-kql-32-filled | Database Kql 32 Filled |
+| database-kql-32-regular | Database Kql 32 Regular |
+| database-money-20-filled | Database Money 20 Filled |
+| database-money-20-regular | Database Money 20 Regular |
+| database-multiple-arrow-20-filled | Database Multiple Arrow 20 Filled |
+| database-multiple-arrow-20-regular | Database Multiple Arrow 20 Regular |
+| database-multiple-arrow-24-filled | Database Multiple Arrow 24 Filled |
+| database-multiple-arrow-24-regular | Database Multiple Arrow 24 Regular |
+| database-multiple-arrow-32-filled | Database Multiple Arrow 32 Filled |
+| database-multiple-arrow-32-regular | Database Multiple Arrow 32 Regular |
+| database-multiple-kql-20-filled | Database Multiple Kql 20 Filled |
+| database-multiple-kql-20-regular | Database Multiple Kql 20 Regular |
+| database-pulse-20-filled | Database Pulse 20 Filled |
+| database-pulse-20-regular | Database Pulse 20 Regular |
+| database-ribbon-20-filled | Database Ribbon 20 Filled |
+| database-ribbon-20-regular | Database Ribbon 20 Regular |
+| database-sql-20-filled | Database Sql 20 Filled |
+| database-sql-20-regular | Database Sql 20 Regular |
+| database-sql-24-filled | Database Sql 24 Filled |
+| database-sql-24-regular | Database Sql 24 Regular |
+| database-sql-32-filled | Database Sql 32 Filled |
+| database-sql-32-regular | Database Sql 32 Regular |
+| database-stack-asterisk-16-filled | Database Stack Asterisk 16 Filled |
+| database-stack-asterisk-16-regular | Database Stack Asterisk 16 Regular |
+| database-stack-asterisk-20-filled | Database Stack Asterisk 20 Filled |
+| database-stack-asterisk-20-regular | Database Stack Asterisk 20 Regular |
+| database-stack-pulse-16-filled | Database Stack Pulse 16 Filled |
+| database-stack-pulse-16-regular | Database Stack Pulse 16 Regular |
+| database-stack-pulse-20-filled | Database Stack Pulse 20 Filled |
+| database-stack-pulse-20-regular | Database Stack Pulse 20 Regular |
+| database-stack-pulse-24-filled | Database Stack Pulse 24 Filled |
+| database-stack-pulse-24-regular | Database Stack Pulse 24 Regular |
+| database-stack-pulse-32-filled | Database Stack Pulse 32 Filled |
+| database-stack-pulse-32-regular | Database Stack Pulse 32 Regular |
+| database-swap-20-filled | Database Swap 20 Filled |
+| database-swap-20-regular | Database Swap 20 Regular |
+| database-table-20-filled | Database Table 20 Filled |
+| database-table-20-regular | Database Table 20 Regular |
+| databases-16-color | Databases 16 Color |
+| databases-16-filled | Databases 16 Filled |
+| databases-16-regular | Databases 16 Regular |
+| databases-20-color | Databases 20 Color |
+| databases-20-filled | Databases 20 Filled |
+| databases-20-regular | Databases 20 Regular |
+| databases-24-color | Databases 24 Color |
+| databases-24-filled | Databases 24 Filled |
+| databases-24-regular | Databases 24 Regular |
+| databases-28-color | Databases 28 Color |
+| databases-28-filled | Databases 28 Filled |
+| databases-28-regular | Databases 28 Regular |
+| databases-32-color | Databases 32 Color |
+| databases-32-filled | Databases 32 Filled |
+| databases-32-regular | Databases 32 Regular |
+| databases-48-color | Databases 48 Color |
+| databases-48-filled | Databases 48 Filled |
+| databases-48-regular | Databases 48 Regular |
+| dataflow | Dataflow |
+| dataflow-40 | Dataflow 40 |
+| dataflow-64 | Dataflow 64 |
+| dataflow-gen2 | Dataflow Gen2 |
+| dataflow-gen2-40 | Dataflow Gen2 40 |
+| dataflow-gen2-64 | Dataflow Gen2 64 |
+| datamart | Datamart |
+| datamart-40 | Datamart 40 |
+| datamart-64 | Datamart 64 |
+| datatype-any-20-filled | Datatype Any 20 Filled |
+| datatype-any-20-regular | Datatype Any 20 Regular |
+| datatype-binary-16-filled | Datatype Binary 16 Filled |
+| datatype-binary-16-regular | Datatype Binary 16 Regular |
+| datatype-binary-20-filled | Datatype Binary 20 Filled |
+| datatype-binary-20-regular | Datatype Binary 20 Regular |
+| datatype-boolean-16-filled | Datatype Boolean 16 Filled |
+| datatype-boolean-16-regular | Datatype Boolean 16 Regular |
+| datatype-boolean-20-filled | Datatype Boolean 20 Filled |
+| datatype-boolean-20-regular | Datatype Boolean 20 Regular |
+| datatype-byte-20-filled | Datatype Byte 20 Filled |
+| datatype-byte-20-regular | Datatype Byte 20 Regular |
+| datatype-decimal-16-filled | Datatype Decimal 16 Filled |
+| datatype-decimal-16-regular | Datatype Decimal 16 Regular |
+| datatype-decimal-20-filled | Datatype Decimal 20 Filled |
+| datatype-decimal-20-regular | Datatype Decimal 20 Regular |
+| datatype-double-16-filled | Datatype Double 16 Filled |
+| datatype-double-16-regular | Datatype Double 16 Regular |
+| datatype-double-20-filled | Datatype Double 20 Filled |
+| datatype-double-20-regular | Datatype Double 20 Regular |
+| datatype-float-16-filled | Datatype Float 16 Filled |
+| datatype-float-16-regular | Datatype Float 16 Regular |
+| datatype-float-20-filled | Datatype Float 20 Filled |
+| datatype-float-20-regular | Datatype Float 20 Regular |
+| datatype-integer-16-filled | Datatype Integer 16 Filled |
+| datatype-integer-16-regular | Datatype Integer 16 Regular |
+| datatype-integer-20-filled | Datatype Integer 20 Filled |
+| datatype-integer-20-regular | Datatype Integer 20 Regular |
+| datatype-long-16-filled | Datatype Long 16 Filled |
+| datatype-long-16-regular | Datatype Long 16 Regular |
+| datatype-long-20-filled | Datatype Long 20 Filled |
+| datatype-long-20-regular | Datatype Long 20 Regular |
+| datatype-short-16-filled | Datatype Short 16 Filled |
+| datatype-short-16-regular | Datatype Short 16 Regular |
+| datatype-short-20-filled | Datatype Short 20 Filled |
+| datatype-short-20-regular | Datatype Short 20 Regular |
+| datatype-string-16-filled | Datatype String 16 Filled |
+| datatype-string-16-regular | Datatype String 16 Regular |
+| datatype-string-20-filled | Datatype String 20 Filled |
+| datatype-string-20-regular | Datatype String 20 Regular |
+| datatype-unique-identifier-16-filled | Datatype Unique Identifier 16 Filled |
+| datatype-unique-identifier-16-regular | Datatype Unique Identifier 16 Regular |
+| datatype-unique-identifier-20-filled | Datatype Unique Identifier 20 Filled |
+| datatype-unique-identifier-20-regular | Datatype Unique Identifier 20 Regular |
+| developer-board-lightning-asterisk-20-filled | Developer Board Lightning Asterisk 20 Filled |
+| developer-board-lightning-asterisk-20-regular | Developer Board Lightning Asterisk 20 Regular |
+| developer-board-lightning-kql-20-filled | Developer Board Lightning Kql 20 Filled |
+| developer-board-lightning-kql-20-regular | Developer Board Lightning Kql 20 Regular |
+| developer-board-lightning-sparkle-20-filled | Developer Board Lightning Sparkle 20 Filled |
+| developer-board-lightning-sparkle-20-regular | Developer Board Lightning Sparkle 20 Regular |
+| diagram-arrow-circle-20-filled | Diagram Arrow Circle 20 Filled |
+| diagram-arrow-circle-20-regular | Diagram Arrow Circle 20 Regular |
+| diagram-branch-20-filled | Diagram Branch 20 Filled |
+| diagram-branch-20-regular | Diagram Branch 20 Regular |
+| diagram-branch-24-filled | Diagram Branch 24 Filled |
+| diagram-branch-24-regular | Diagram Branch 24 Regular |
+| diagram-branch-32-filled | Diagram Branch 32 Filled |
+| diagram-branch-32-regular | Diagram Branch 32 Regular |
+| diagram-branch-link-20-filled | Diagram Branch Link 20 Filled |
+| diagram-branch-link-20-regular | Diagram Branch Link 20 Regular |
+| diagram-branch-shortcut-20-filled | Diagram Branch Shortcut 20 Filled |
+| diagram-branch-shortcut-20-regular | Diagram Branch Shortcut 20 Regular |
+| diagram-branch-sync-20-filled | Diagram Branch Sync 20 Filled |
+| diagram-branch-sync-20-regular | Diagram Branch Sync 20 Regular |
+| diagram-branch-sync-24-filled | Diagram Branch Sync 24 Filled |
+| diagram-branch-sync-24-regular | Diagram Branch Sync 24 Regular |
+| diagram-branch-sync-32-filled | Diagram Branch Sync 32 Filled |
+| diagram-branch-sync-32-regular | Diagram Branch Sync 32 Regular |
+| document-hint-20-filled | Document Hint 20 Filled |
+| document-hint-20-regular | Document Hint 20 Regular |
+| document-multiple-checkmark-16-filled | Document Multiple Checkmark 16 Filled |
+| document-multiple-checkmark-16-regular | Document Multiple Checkmark 16 Regular |
+| document-multiple-checkmark-20-filled | Document Multiple Checkmark 20 Filled |
+| document-multiple-checkmark-20-regular | Document Multiple Checkmark 20 Regular |
+| document-multiple-checkmark-24-filled | Document Multiple Checkmark 24 Filled |
+| document-multiple-checkmark-24-regular | Document Multiple Checkmark 24 Regular |
+| document-multiple-dax-16-filled | Document Multiple Dax 16 Filled |
+| document-multiple-dax-16-regular | Document Multiple Dax 16 Regular |
+| document-multiple-dax-20-filled | Document Multiple Dax 20 Filled |
+| document-multiple-dax-20-regular | Document Multiple Dax 20 Regular |
+| document-multiple-dax-arrow-diagonal-up-right-20-filled | Document Multiple Dax Arrow Diagonal Up Right 20 Filled |
+| document-multiple-dax-arrow-diagonal-up-right-20-regular | Document Multiple Dax Arrow Diagonal Up Right 20 Regular |
+| document-multiple-pulse-16-filled | Document Multiple Pulse 16 Filled |
+| document-multiple-pulse-16-regular | Document Multiple Pulse 16 Regular |
+| document-multiple-pulse-20-filled | Document Multiple Pulse 20 Filled |
+| document-multiple-pulse-20-regular | Document Multiple Pulse 20 Regular |
+| document-multiple-question-20-filled | Document Multiple Question 20 Filled |
+| document-multiple-question-20-regular | Document Multiple Question 20 Regular |
+| document-one-page-multiple-text-20-filled | Document One Page Multiple Text 20 Filled |
+| document-one-page-multiple-text-20-regular | Document One Page Multiple Text 20 Regular |
+| document-one-page-multiple-text-24-filled | Document One Page Multiple Text 24 Filled |
+| document-one-page-multiple-text-24-regular | Document One Page Multiple Text 24 Regular |
+| document-one-page-multiple-text-32-filled | Document One Page Multiple Text 32 Filled |
+| document-one-page-multiple-text-32-regular | Document One Page Multiple Text 32 Regular |
+| document-one-page-sparkles-20-filled | Document One Page Sparkles 20 Filled |
+| document-one-page-sparkles-20-regular | Document One Page Sparkles 20 Regular |
+| document-people-20-filled | Document People 20 Filled |
+| document-people-20-regular | Document People 20 Regular |
+| document-pq-16-filled | Document Pq 16 Filled |
+| document-pq-16-regular | Document Pq 16 Regular |
+| document-pq-20-filled | Document Pq 20 Filled |
+| document-pq-20-regular | Document Pq 20 Regular |
+| document-pq-24-filled | Document Pq 24 Filled |
+| document-pq-24-regular | Document Pq 24 Regular |
+| document-pq-32-filled | Document Pq 32 Filled |
+| document-pq-32-regular | Document Pq 32 Regular |
+| document-rdl-16-filled | Document Rdl 16 Filled |
+| document-rdl-16-regular | Document Rdl 16 Regular |
+| document-rdl-20-filled | Document Rdl 20 Filled |
+| document-rdl-20-regular | Document Rdl 20 Regular |
+| document-shapes-20-filled | Document Shapes 20 Filled |
+| document-shapes-20-regular | Document Shapes 20 Regular |
+| document-sql-20-filled | Document Sql 20 Filled |
+| document-sql-20-regular | Document Sql 20 Regular |
+| document-ssis-20-filled | Document Ssis 20 Filled |
+| document-ssis-20-regular | Document Ssis 20 Regular |
+| document-ssis-play-20-filled | Document Ssis Play 20 Filled |
+| document-ssis-play-20-regular | Document Ssis Play 20 Regular |
+| document-tmdl-16-filled | Document Tmdl 16 Filled |
+| document-tmdl-16-regular | Document Tmdl 16 Regular |
+| document-tmdl-20-filled | Document Tmdl 20 Filled |
+| document-tmdl-20-regular | Document Tmdl 20 Regular |
+| document-tmdl-arrow-diagonal-up-right-20-filled | Document Tmdl Arrow Diagonal Up Right 20 Filled |
+| document-tmdl-arrow-diagonal-up-right-20-regular | Document Tmdl Arrow Diagonal Up Right 20 Regular |
+| document-tree-20-filled | Document Tree 20 Filled |
+| document-tree-20-regular | Document Tree 20 Regular |
+| dual-screen-diff-20-filled | Dual Screen Diff 20 Filled |
+| dual-screen-diff-20-regular | Dual Screen Diff 20 Regular |
+| endpoint-20-filled | Endpoint 20 Filled |
+| endpoint-20-regular | Endpoint 20 Regular |
+| environment | Environment |
+| environment-40 | Environment 40 |
+| environment-64 | Environment 64 |
+| equal-12-filled | Equal 12 Filled |
+| equal-12-regular | Equal 12 Regular |
+| equal-16-filled | Equal 16 Filled |
+| equal-16-regular | Equal 16 Regular |
+| equal-20-filled | Equal 20 Filled |
+| equal-20-regular | Equal 20 Regular |
+| equal-off-circle-20-filled | Equal Off Circle 20 Filled |
+| equal-off-circle-20-regular | Equal Off Circle 20 Regular |
+| event-house | Event House |
+| event-house-20-non-item | Event House 20 Non Item |
+| event-house-24-non-item | Event House 24 Non Item |
+| event-house-32-non-item | Event House 32 Non Item |
+| event-house-40 | Event House 40 |
+| event-house-40-non-item | Event House 40 Non Item |
+| event-house-48-non-item | Event House 48 Non Item |
+| event-house-64 | Event House 64 |
+| event-house-64-non-item | Event House 64 Non Item |
+| eventstream | Eventstream |
+| eventstream-40 | Eventstream 40 |
+| eventstream-64 | Eventstream 64 |
+| experiments | Experiments |
+| experiments-40 | Experiments 40 |
+| experiments-64 | Experiments 64 |
+| exploration | Exploration |
+| exploration-40 | Exploration 40 |
+| exploration-64 | Exploration 64 |
+| external-dataflow | External Dataflow |
+| external-dataflow-40 | External Dataflow 40 |
+| external-dataflow-64 | External Dataflow 64 |
+| external-datamart | External Datamart |
+| external-datamart-40 | External Datamart 40 |
+| external-datamart-64 | External Datamart 64 |
+| external-semantic-model | External Semantic Model |
+| external-semantic-model-40 | External Semantic Model 40 |
+| external-semantic-model-64 | External Semantic Model 64 |
+| fabric-16-color | Fabric 16 Color |
+| fabric-16-filled | Fabric 16 Filled |
+| fabric-16-regular | Fabric 16 Regular |
+| fabric-20-color | Fabric 20 Color |
+| fabric-20-filled | Fabric 20 Filled |
+| fabric-20-regular | Fabric 20 Regular |
+| fabric-24-color | Fabric 24 Color |
+| fabric-24-filled | Fabric 24 Filled |
+| fabric-24-regular | Fabric 24 Regular |
+| fabric-28-color | Fabric 28 Color |
+| fabric-28-filled | Fabric 28 Filled |
+| fabric-28-regular | Fabric 28 Regular |
+| fabric-32-color | Fabric 32 Color |
+| fabric-32-filled | Fabric 32 Filled |
+| fabric-32-regular | Fabric 32 Regular |
+| fabric-48-color | Fabric 48 Color |
+| fabric-48-filled | Fabric 48 Filled |
+| fabric-48-regular | Fabric 48 Regular |
+| filter-settings-20-filled | Filter Settings 20 Filled |
+| filter-settings-20-regular | Filter Settings 20 Regular |
+| folder-20-non-item | Folder 20 Non Item |
+| folder-24-non-item | Folder 24 Non Item |
+| folder-32-non-item | Folder 32 Non Item |
+| folder-40-non-item | Folder 40 Non Item |
+| folder-48-non-item | Folder 48 Non Item |
+| folder-64-non-item | Folder 64 Non Item |
+| folder-open-data-bar-20-filled | Folder Open Data Bar 20 Filled |
+| folder-open-data-bar-20-regular | Folder Open Data Bar 20 Regular |
+| folder-share-20-filled | Folder Share 20 Filled |
+| folder-share-20-regular | Folder Share 20 Regular |
+| folder-table-16-filled | Folder Table 16 Filled |
+| folder-table-16-regular | Folder Table 16 Regular |
+| folder-table-20-filled | Folder Table 20 Filled |
+| folder-table-20-regular | Folder Table 20 Regular |
+| folder-table-24-filled | Folder Table 24 Filled |
+| folder-table-24-regular | Folder Table 24 Regular |
+| function-set | Function Set |
+| function-set-16-filled | Function Set 16 Filled |
+| function-set-16-regular | Function Set 16 Regular |
+| function-set-20-filled | Function Set 20 Filled |
+| function-set-20-regular | Function Set 20 Regular |
+| function-set-24-filled | Function Set 24 Filled |
+| function-set-24-regular | Function Set 24 Regular |
+| function-set-32-filled | Function Set 32 Filled |
+| function-set-32-regular | Function Set 32 Regular |
+| function-set-40 | Function Set 40 |
+| function-set-64 | Function Set 64 |
+| funnel-20-filled | Funnel 20 Filled |
+| funnel-20-regular | Funnel 20 Regular |
+| funnel-add-20-filled | Funnel Add 20 Filled |
+| funnel-add-20-regular | Funnel Add 20 Regular |
+| gauge-kql-16-filled | Gauge Kql 16 Filled |
+| gauge-kql-16-regular | Gauge Kql 16 Regular |
+| gauge-kql-20-filled | Gauge Kql 20 Filled |
+| gauge-kql-20-regular | Gauge Kql 20 Regular |
+| gauge-kql-24-filled | Gauge Kql 24 Filled |
+| gauge-kql-24-regular | Gauge Kql 24 Regular |
+| gauge-kql-32-filled | Gauge Kql 32 Filled |
+| gauge-kql-32-regular | Gauge Kql 32 Regular |
+| generic-placeholder | Generic Placeholder |
+| generic-placeholder-40 | Generic Placeholder 40 |
+| generic-placeholder-64 | Generic Placeholder 64 |
+| geometry-collection-20-filled | Geometry Collection 20 Filled |
+| geometry-collection-20-regular | Geometry Collection 20 Regular |
+| gift-open-warning-16-filled | Gift Open Warning 16 Filled |
+| gift-open-warning-16-regular | Gift Open Warning 16 Regular |
+| gift-open-warning-20-filled | Gift Open Warning 20 Filled |
+| gift-open-warning-20-regular | Gift Open Warning 20 Regular |
+| gift-open-warning-24-filled | Gift Open Warning 24 Filled |
+| gift-open-warning-24-regular | Gift Open Warning 24 Regular |
+| gift-open-warning-32-filled | Gift Open Warning 32 Filled |
+| gift-open-warning-32-regular | Gift Open Warning 32 Regular |
+| globe-settings-20-filed | Globe Settings 20 Filed |
+| globe-settings-20-regular | Globe Settings 20 Regular |
+| graph-intelligence-16-color | Graph Intelligence 16 Color |
+| graph-intelligence-16-filled | Graph Intelligence 16 Filled |
+| graph-intelligence-16-regular | Graph Intelligence 16 Regular |
+| graph-intelligence-20-color | Graph Intelligence 20 Color |
+| graph-intelligence-20-filled | Graph Intelligence 20 Filled |
+| graph-intelligence-20-regular | Graph Intelligence 20 Regular |
+| graph-intelligence-24-color | Graph Intelligence 24 Color |
+| graph-intelligence-24-filled | Graph Intelligence 24 Filled |
+| graph-intelligence-24-regular | Graph Intelligence 24 Regular |
+| graph-intelligence-28-color | Graph Intelligence 28 Color |
+| graph-intelligence-28-filled | Graph Intelligence 28 Filled |
+| graph-intelligence-28-regular | Graph Intelligence 28 Regular |
+| graph-intelligence-32-color | Graph Intelligence 32 Color |
+| graph-intelligence-32-filled | Graph Intelligence 32 Filled |
+| graph-intelligence-32-regular | Graph Intelligence 32 Regular |
+| graph-intelligence-48-color | Graph Intelligence 48 Color |
+| graph-intelligence-48-filled | Graph Intelligence 48 Filled |
+| graph-intelligence-48-regular | Graph Intelligence 48 Regular |
+| graph-model | Graph Model |
+| graph-model-40 | Graph Model 40 |
+| graph-model-64 | Graph Model 64 |
+| graph-queryset | Graph Queryset |
+| graph-queryset-40 | Graph Queryset 40 |
+| graph-queryset-64 | Graph Queryset 64 |
+| group-workspace-20-non-item | Group Workspace 20 Non Item |
+| group-workspace-24-non-item | Group Workspace 24 Non Item |
+| group-workspace-32-non-item | Group Workspace 32 Non Item |
+| group-workspace-40-non-item | Group Workspace 40 Non Item |
+| group-workspace-48-non-item | Group Workspace 48 Non Item |
+| group-workspace-64-non-item | Group Workspace 64 Non Item |
+| healthcare | Healthcare |
+| healthcare-40 | Healthcare 40 |
+| healthcare-64 | Healthcare 64 |
+| hexagon-three-rotated-12-filled | Hexagon Three Rotated 12 Filled |
+| hexagon-three-rotated-12-regular | Hexagon Three Rotated 12 Regular |
+| hexagon-three-rotated-16-filled | Hexagon Three Rotated 16 Filled |
+| hexagon-three-rotated-16-regular | Hexagon Three Rotated 16 Regular |
+| hexagon-three-rotated-20-filled | Hexagon Three Rotated 20 Filled |
+| hexagon-three-rotated-20-regular | Hexagon Three Rotated 20 Regular |
+| hexagon-three-rotated-24-filled | Hexagon Three Rotated 24 Filled |
+| hexagon-three-rotated-24-regular | Hexagon Three Rotated 24 Regular |
+| hexagon-three-rotated-32-filled | Hexagon Three Rotated 32 Filled |
+| hexagon-three-rotated-32-regular | Hexagon Three Rotated 32 Regular |
+| hexagon-three-rotated-add-20-filled | Hexagon Three Rotated Add 20 Filled |
+| hexagon-three-rotated-add-20-regular | Hexagon Three Rotated Add 20 Regular |
+| hint-grid-16-filled | Hint Grid 16 Filled |
+| hint-grid-16-regular | Hint Grid 16 Regular |
+| hint-grid-20-filled | Hint Grid 20 Filled |
+| hint-grid-20-regular | Hint Grid 20 Regular |
+| home-kql-16-filled | Home Kql 16 Filled |
+| home-kql-16-regular | Home Kql 16 Regular |
+| home-kql-20-filled | Home Kql 20 Filled |
+| home-kql-20-regular | Home Kql 20 Regular |
+| home-kql-24-filled | Home Kql 24 Filled |
+| home-kql-24-regular | Home Kql 24 Regular |
+| home-kql-32-filled | Home Kql 32 Filled |
+| home-kql-32-regular | Home Kql 32 Regular |
+| home-more-lightning-20-filled | Home More Lightning 20 Filled |
+| home-more-lightning-20-regular | Home More Lightning 20 Regular |
+| home-tree-line-20-filled | Home Tree Line 20 Filled |
+| home-tree-line-20-regular | Home Tree Line 20 Regular |
+| home-waves-16-filled | Home Waves 16 Filled |
+| home-waves-16-regular | Home Waves 16 Regular |
+| home-waves-20-filled | Home Waves 20 Filled |
+| home-waves-20-regular | Home Waves 20 Regular |
+| home-waves-24-filled | Home Waves 24 Filled |
+| home-waves-24-regular | Home Waves 24 Regular |
+| home-waves-32-filled | Home Waves 32 Filled |
+| home-waves-32-regular | Home Waves 32 Regular |
+| home-waves-48-filled | Home Waves 48 Filled |
+| home-waves-48-regular | Home Waves 48 Regular |
+| import-notebook-20-non-item | Import Notebook 20 Non Item |
+| import-notebook-24-non-item | Import Notebook 24 Non Item |
+| import-notebook-32-non-item | Import Notebook 32 Non Item |
+| import-notebook-40-non-item | Import Notebook 40 Non Item |
+| import-notebook-48-non-item | Import Notebook 48 Non Item |
+| import-notebook-64-non-item | Import Notebook 64 Non Item |
+| industry-solutions-16-color | Industry Solutions 16 Color |
+| industry-solutions-20-color | Industry Solutions 20 Color |
+| industry-solutions-24-color | Industry Solutions 24 Color |
+| industry-solutions-28-color | Industry Solutions 28 Color |
+| industry-solutions-32-color | Industry Solutions 32 Color |
+| industry-solutions-48-color | Industry Solutions 48 Color |
+| info-no-circle-20-filled | Info No Circle 20 Filled |
+| info-no-circle-20-regular | Info No Circle 20 Regular |
+| iot-person-16-filled | Iot Person 16 Filled |
+| iot-person-16-regular | Iot Person 16 Regular |
+| iot-person-20-filled | Iot Person 20 Filled |
+| iot-person-20-regular | Iot Person 20 Regular |
+| iot-person-24-filled | Iot Person 24 Filled |
+| iot-person-24-regular | Iot Person 24 Regular |
+| iot-person-32-filled | Iot Person 32 Filled |
+| iot-person-32-regular | Iot Person 32 Regular |
+| kql-database | Kql Database |
+| kql-database-40 | Kql Database 40 |
+| kql-database-64 | Kql Database 64 |
+| kql-queryset | Kql Queryset |
+| kql-queryset-40 | Kql Queryset 40 |
+| kql-queryset-64 | Kql Queryset 64 |
+| kql-script | Kql Script |
+| kql-script-40 | Kql Script 40 |
+| kql-script-64 | Kql Script 64 |
+| lakehouse | Lakehouse |
+| lakehouse-40 | Lakehouse 40 |
+| lakehouse-64 | Lakehouse 64 |
+| layer-add-20-filled | Layer Add 20 Filled |
+| layer-add-20-regular | Layer Add 20 Regular |
+| layout-column-three-lock-20-filled | Layout Column Three Lock 20 Filled |
+| layout-column-three-lock-20-regular | Layout Column Three Lock 20 Regular |
+| layout-column-three-lock-24-filled | Layout Column Three Lock 24 Filled |
+| layout-column-three-lock-24-regular | Layout Column Three Lock 24 Regular |
+| layout-row-three-lock-20-filled | Layout Row Three Lock 20 Filled |
+| layout-row-three-lock-20-regular | Layout Row Three Lock 20 Regular |
+| layout-row-three-lock-24-filled | Layout Row Three Lock 24 Filled |
+| layout-row-three-lock-24-regular | Layout Row Three Lock 24 Regular |
+| library-globe-20-filled | Library Globe 20 Filled |
+| library-globe-20-regular | Library Globe 20 Regular |
+| library-people-20-filled | Library People 20 Filled |
+| library-people-20-regular | Library People 20 Regular |
+| library-person-20-filled | Library Person 20 Filled |
+| library-person-20-regular | Library Person 20 Regular |
+| line-squiggle-20-filled | Line Squiggle 20 Filled |
+| line-squiggle-20-regular | Line Squiggle 20 Regular |
+| links | Links |
+| links-40 | Links 40 |
+| links-64 | Links 64 |
+| list-asterisk-20-filled | List Asterisk 20 Filled |
+| list-asterisk-20-regular | List Asterisk 20 Regular |
+| list-kql-20-filled | List Kql 20 Filled |
+| list-kql-20-regular | List Kql 20 Regular |
+| list-shield-16-filled | List Shield 16 Filled |
+| list-shield-16-regular | List Shield 16 Regular |
+| list-shield-20-filled | List Shield 20 Filled |
+| list-shield-20-regular | List Shield 20 Regular |
+| list-sql-20-filled | List Sql 20 Filled |
+| list-sql-20-regular | List Sql 20 Regular |
+| lock-circle-20-filled | Lock Circle 20 Filled |
+| lock-circle-20-regular | Lock Circle 20 Regular |
+| lock-circle-32-filled | Lock Circle 32 Filled |
+| lock-circle-32-regular | Lock Circle 32 Regular |
+| lock-closed-database-16-filled | Lock Closed Database 16 Filled |
+| lock-closed-database-16-regular | Lock Closed Database 16 Regular |
+| lock-closed-database-20-filled | Lock Closed Database 20 Filled |
+| lock-closed-database-20-regular | Lock Closed Database 20 Regular |
+| lock-closed-sql-16-filled | Lock Closed Sql 16 Filled |
+| lock-closed-sql-16-regular | Lock Closed Sql 16 Regular |
+| lock-closed-sql-20-filled | Lock Closed Sql 20 Filled |
+| lock-closed-sql-20-regular | Lock Closed Sql 20 Regular |
+| match-category-20-filled | Match Category 20 Filled |
+| match-category-20-regular | Match Category 20 Regular |
+| metric-sets | Metric Sets |
+| metric-sets-40 | Metric Sets 40 |
+| metric-sets-64 | Metric Sets 64 |
+| mirrored-catalog | Mirrored Catalog |
+| mirrored-catalog-64 | Mirrored Catalog 64 |
+| mirrored-catalog-65 | Mirrored Catalog 65 |
+| mirrored-generic-database | Mirrored Generic Database |
+| mirrored-generic-database-40 | Mirrored Generic Database 40 |
+| mirrored-generic-database-64 | Mirrored Generic Database 64 |
+| mobile-report | Mobile Report |
+| mobile-report-40 | Mobile Report 40 |
+| mobile-report-64 | Mobile Report 64 |
+| model | Model |
+| model-40 | Model 40 |
+| model-64 | Model 64 |
+| my-location-arrow-down-20-filled | My Location Arrow Down 20 Filled |
+| my-location-arrow-down-20-regular | My Location Arrow Down 20 Regular |
+| my-location-database-20-filled | My Location Database 20 Filled |
+| my-location-database-20-regular | My Location Database 20 Regular |
+| my-location-radar-20-filled | My Location Radar 20 Filled |
+| my-location-radar-20-regular | My Location Radar 20 Regular |
+| my-location-ribbon-20-filled | My Location Ribbon 20 Filled |
+| my-location-ribbon-20-regular | My Location Ribbon 20 Regular |
+| my-location-ribbon-32-filled | My Location Ribbon 32 Filled |
+| my-location-ribbon-32-regular | My Location Ribbon 32 Regular |
+| my-workspace-20-non-item | My Workspace 20 Non Item |
+| my-workspace-24-non-item | My Workspace 24 Non Item |
+| my-workspace-32-non-item | My Workspace 32 Non Item |
+| my-workspace-40-non-item | My Workspace 40 Non Item |
+| my-workspace-48-non-item | My Workspace 48 Non Item |
+| my-workspace-64-non-item | My Workspace 64 Non Item |
+| no-access-semantic-model | No Access Semantic Model |
+| no-access-semantic-model-40 | No Access Semantic Model 40 |
+| no-access-semantic-model-64 | No Access Semantic Model 64 |
+| nodes-connected-20-filled | Nodes Connected 20 Filled |
+| nodes-connected-20-regular | Nodes Connected 20 Regular |
+| nodes-triangle-connected-top-20-filled | Nodes Triangle Connected Top 20 Filled |
+| nodes-triangle-connected-top-20-regular | Nodes Triangle Connected Top 20 Regular |
+| notebook | Notebook |
+| notebook-40 | Notebook 40 |
+| notebook-64 | Notebook 64 |
+| notebook-arrow-diagonal-up-right-20-filled | Notebook Arrow Diagonal Up Right 20 Filled |
+| notebook-arrow-diagonal-up-right-20-regular | Notebook Arrow Diagonal Up Right 20 Regular |
+| notebook-code-16-filled | Notebook Code 16 Filled |
+| notebook-code-16-regular | Notebook Code 16 Regular |
+| notebook-code-20-filled | Notebook Code 20 Filled |
+| notebook-code-20-regular | Notebook Code 20 Regular |
+| notebook-code-24-filled | Notebook Code 24 Filled |
+| notebook-code-24-regular | Notebook Code 24 Regular |
+| notebook-code-32-filled | Notebook Code 32 Filled |
+| notebook-code-32-regular | Notebook Code 32 Regular |
+| notebook-globe-20-filled | Notebook Globe 20 Filled |
+| notebook-globe-20-regular | Notebook Globe 20 Regular |
+| number-01-function-20-filled | Number 01 Function 20 Filled |
+| number-01-function-20-regular | Number 01 Function 20 Regular |
+| odata-20-filled | Odata 20 Filled |
+| odata-20-regular | Odata 20 Regular |
+| odata-24-filled | Odata 24 Filled |
+| odata-24-regular | Odata 24 Regular |
+| one-lake-16-filled | One Lake 16 Filled |
+| one-lake-16-regular | One Lake 16 Regular |
+| one-lake-20-color | One Lake 20 Color |
+| one-lake-20-filled | One Lake 20 Filled |
+| one-lake-20-regular | One Lake 20 Regular |
+| one-lake-24-color | One Lake 24 Color |
+| one-lake-24-filled | One Lake 24 Filled |
+| one-lake-24-regular | One Lake 24 Regular |
+| one-lake-28-color | One Lake 28 Color |
+| one-lake-28-filled | One Lake 28 Filled |
+| one-lake-28-regular | One Lake 28 Regular |
+| one-lake-32-color | One Lake 32 Color |
+| one-lake-32-filled | One Lake 32 Filled |
+| one-lake-32-regular | One Lake 32 Regular |
+| one-lake-48-color | One Lake 48 Color |
+| one-lake-48-filled | One Lake 48 Filled |
+| one-lake-48-regular | One Lake 48 Regular |
+| ontology | Ontology |
+| ontology-40 | Ontology 40 |
+| ontology-64 | Ontology 64 |
+| operations-agent | Operations Agent |
+| operations-agent-40 | Operations Agent 40 |
+| operations-agent-64 | Operations Agent 64 |
+| orientation-vertical-20-filled | Orientation Vertical 20 Filled |
+| orientation-vertical-20-regular | Orientation Vertical 20 Regular |
+| paginated-report | Paginated Report |
+| paginated-report-40 | Paginated Report 40 |
+| paginated-report-64 | Paginated Report 64 |
+| partition-hint-16-filled | Partition Hint 16 Filled |
+| partition-hint-16-regular | Partition Hint 16 Regular |
+| partition-hint-20-filled | Partition Hint 20 Filled |
+| partition-hint-20-regular | Partition Hint 20 Regular |
+| partition-hint-32-filled | Partition Hint 32 Filled |
+| partition-hint-32-regular | Partition Hint 32 Regular |
+| person-warning-20-filled | Person Warning 20 Filled |
+| person-warning-20-regular | Person Warning 20 Regular |
+| person-wrench-20-filled | Person Wrench 20 Filled |
+| person-wrench-20-regular | Person Wrench 20 Regular |
+| phone-data-bar-vertical-20-filled | Phone Data Bar Vertical 20 Filled |
+| phone-data-bar-vertical-20-regular | Phone Data Bar Vertical 20 Regular |
+| pie-double-20-filled | Pie Double 20 Filled |
+| pie-double-20-regular | Pie Double 20 Regular |
+| pipeline | Pipeline |
+| pipeline-40 | Pipeline 40 |
+| pipeline-64 | Pipeline 64 |
+| pipeline-note-20-filled | Pipeline Note 20 Filled |
+| pipeline-note-20-regular | Pipeline Note 20 Regular |
+| planning | Planning |
+| planning-40 | Planning 40 |
+| planning-64 | Planning 64 |
+| polygon-20-filled | Polygon 20 Filled |
+| polygon-20-regular | Polygon 20 Regular |
+| power-bi-16-color | Power Bi 16 Color |
+| power-bi-16-filled | Power Bi 16 Filled |
+| power-bi-16-regular | Power Bi 16 Regular |
+| power-bi-20-color | Power Bi 20 Color |
+| power-bi-20-filled | Power Bi 20 Filled |
+| power-bi-20-regular | Power Bi 20 Regular |
+| power-bi-24-color | Power Bi 24 Color |
+| power-bi-24-filled | Power Bi 24 Filled |
+| power-bi-24-regular | Power Bi 24 Regular |
+| power-bi-28-color | Power Bi 28 Color |
+| power-bi-28-filled | Power Bi 28 Filled |
+| power-bi-28-regular | Power Bi 28 Regular |
+| power-bi-32-color | Power Bi 32 Color |
+| power-bi-32-filled | Power Bi 32 Filled |
+| power-bi-32-regular | Power Bi 32 Regular |
+| power-bi-48-color | Power Bi 48 Color |
+| power-bi-48-filled | Power Bi 48 Filled |
+| power-bi-48-regular | Power Bi 48 Regular |
+| progress-bar-20-filled | Progress Bar 20 Filled |
+| progress-bar-20-regular | Progress Bar 20 Regular |
+| progress-circle-12-filled | Progress Circle 12 Filled |
+| progress-circle-12-regular | Progress Circle 12 Regular |
+| progress-circle-20-filled | Progress Circle 20 Filled |
+| progress-circle-20-regular | Progress Circle 20 Regular |
+| progress-circle-24-filled | Progress Circle 24 Filled |
+| progress-circle-24-regular | Progress Circle 24 Regular |
+| pulse-square-person-20-filled | Pulse Square Person 20 Filled |
+| pulse-square-person-20-regular | Pulse Square Person 20 Regular |
+| pulse-square-person-24-filled | Pulse Square Person 24 Filled |
+| pulse-square-person-24-regular | Pulse Square Person 24 Regular |
+| pulse-square-person-32-filled | Pulse Square Person 32 Filled |
+| pulse-square-person-32-regular | Pulse Square Person 32 Regular |
+| purview-16-color | Purview 16 Color |
+| purview-16-filled | Purview 16 Filled |
+| purview-16-regular | Purview 16 Regular |
+| purview-20-color | Purview 20 Color |
+| purview-20-filled | Purview 20 Filled |
+| purview-20-regular | Purview 20 Regular |
+| purview-24-color | Purview 24 Color |
+| purview-24-filled | Purview 24 Filled |
+| purview-24-regular | Purview 24 Regular |
+| purview-28-color | Purview 28 Color |
+| purview-28-filled | Purview 28 Filled |
+| purview-28-regular | Purview 28 Regular |
+| purview-32-color | Purview 32 Color |
+| purview-32-filled | Purview 32 Filled |
+| purview-32-regular | Purview 32 Regular |
+| purview-48-color | Purview 48 Color |
+| purview-48-filled | Purview 48 Filled |
+| purview-48-regular | Purview 48 Regular |
+| rdl-report | Rdl Report |
+| rdl-report-40 | Rdl Report 40 |
+| rdl-report-64 | Rdl Report 64 |
+| real-time-dashboard | Real Time Dashboard |
+| real-time-dashboard-40 | Real Time Dashboard 40 |
+| real-time-dashboard-64 | Real Time Dashboard 64 |
+| real-time-intelligence-16-color | Real Time Intelligence 16 Color |
+| real-time-intelligence-16-filled | Real Time Intelligence 16 Filled |
+| real-time-intelligence-16-regular | Real Time Intelligence 16 Regular |
+| real-time-intelligence-20-color | Real Time Intelligence 20 Color |
+| real-time-intelligence-20-filled | Real Time Intelligence 20 Filled |
+| real-time-intelligence-20-regular | Real Time Intelligence 20 Regular |
+| real-time-intelligence-24-color | Real Time Intelligence 24 Color |
+| real-time-intelligence-24-filled | Real Time Intelligence 24 Filled |
+| real-time-intelligence-24-regular | Real Time Intelligence 24 Regular |
+| real-time-intelligence-28-color | Real Time Intelligence 28 Color |
+| real-time-intelligence-28-filled | Real Time Intelligence 28 Filled |
+| real-time-intelligence-28-regular | Real Time Intelligence 28 Regular |
+| real-time-intelligence-32-color | Real Time Intelligence 32 Color |
+| real-time-intelligence-32-filled | Real Time Intelligence 32 Filled |
+| real-time-intelligence-32-regular | Real Time Intelligence 32 Regular |
+| real-time-intelligence-48-color | Real Time Intelligence 48 Color |
+| real-time-intelligence-48-filled | Real Time Intelligence 48 Filled |
+| real-time-intelligence-48-regular | Real Time Intelligence 48 Regular |
+| receipt-kql-20-filled | Receipt Kql 20 Filled |
+| receipt-kql-20-regular | Receipt Kql 20 Regular |
+| receipt-kql-24-filled | Receipt Kql 24 Filled |
+| receipt-kql-24-regular | Receipt Kql 24 Regular |
+| receipt-kql-32-filled | Receipt Kql 32 Filled |
+| receipt-kql-32-regular | Receipt Kql 32 Regular |
+| receipt-kql-new-20-filled | Receipt Kql New 20 Filled |
+| receipt-kql-new-20-regular | Receipt Kql New 20 Regular |
+| receipt-sparkle-20-filled | Receipt Sparkle 20 Filled |
+| receipt-sparkle-20-regular | Receipt Sparkle 20 Regular |
+| receipt-sparkle-new-20-filled | Receipt Sparkle New 20 Filled |
+| receipt-sparkle-new-20-regular | Receipt Sparkle New 20 Regular |
+| rectangle-arrow-down-exit-20-filled | Rectangle Arrow Down Exit 20 Filled |
+| rectangle-arrow-down-exit-20-regular | Rectangle Arrow Down Exit 20 Regular |
+| rectangle-arrow-up-20-filled | Rectangle Arrow Up 20 Filled |
+| rectangle-arrow-up-20-regular | Rectangle Arrow Up 20 Regular |
+| rectangle-arrow-up-exit-20-filled | Rectangle Arrow Up Exit 20 Filled |
+| rectangle-arrow-up-exit-20-regular | Rectangle Arrow Up Exit 20 Regular |
+| rectangle-list-asterisk-20-filled | Rectangle List Asterisk 20 Filled |
+| rectangle-list-asterisk-20-regular | Rectangle List Asterisk 20 Regular |
+| rectangle-multiple-arrow-curved-left-20-filled | Rectangle Multiple Arrow Curved Left 20 Filled |
+| rectangle-multiple-arrow-curved-left-20-regular | Rectangle Multiple Arrow Curved Left 20 Regular |
+| rectangle-multiple-arrow-curved-right-20-filled | Rectangle Multiple Arrow Curved Right 20 Filled |
+| rectangle-multiple-arrow-curved-right-20-regular | Rectangle Multiple Arrow Curved Right 20 Regular |
+| rectangle-multiple-diff-20-filled | Rectangle Multiple Diff 20 Filled |
+| rectangle-multiple-diff-20-regular | Rectangle Multiple Diff 20 Regular |
+| report | Report |
+| report-40 | Report 40 |
+| report-64 | Report 64 |
+| restricted-report | Restricted Report |
+| restricted-report-40 | Restricted Report 40 |
+| restricted-report-64 | Restricted Report 64 |
+| restricted-scorecard | Restricted Scorecard |
+| restricted-scorecard-40 | Restricted Scorecard 40 |
+| restricted-scorecard-64 | Restricted Scorecard 64 |
+| retail | Retail |
+| retail-40 | Retail 40 |
+| retail-64 | Retail 64 |
+| runtime-lineage | Runtime Lineage |
+| runtime-lineage-40 | Runtime Lineage 40 |
+| runtime-lineage-64 | Runtime Lineage 64 |
+| sample-20-non-item | Sample 20 Non Item |
+| sample-24-non-item | Sample 24 Non Item |
+| sample-32-non-item | Sample 32 Non Item |
+| sample-40-non-item | Sample 40 Non Item |
+| sample-48-non-item | Sample 48 Non Item |
+| sample-64-non-item | Sample 64 Non Item |
+| sample-workload-32-color | Sample Workload 32 Color |
+| sample-workload-32-filled | Sample Workload 32 Filled |
+| sample-workload-32-regular | Sample Workload 32 Regular |
+| save-phone-20-filled | Save Phone 20 Filled |
+| save-phone-20-regular | Save Phone 20 Regular |
+| scan-categorize-20-filled | Scan Categorize 20 Filled |
+| scan-categorize-20-regular | Scan Categorize 20 Regular |
+| schema-16-filled | Schema 16 Filled |
+| schema-16-regular | Schema 16 Regular |
+| schema-20-filled | Schema 20 Filled |
+| schema-20-regular | Schema 20 Regular |
+| schema-model | Schema Model |
+| schema-model-40 | Schema Model 40 |
+| schema-model-64 | Schema Model 64 |
+| scorecard | Scorecard |
+| scorecard-40 | Scorecard 40 |
+| scorecard-64 | Scorecard 64 |
+| script-kql-20-filled | Script Kql 20 Filled |
+| script-kql-20-regular | Script Kql 20 Regular |
+| script-kql-24-filled | Script Kql 24 Filled |
+| script-kql-24-regular | Script Kql 24 Regular |
+| script-kql-32-filled | Script Kql 32 Filled |
+| script-kql-32-regular | Script Kql 32 Regular |
+| script-kql-add-20-filled | Script Kql Add 20 Filled |
+| script-kql-add-20-regular | Script Kql Add 20 Regular |
+| script-sparkle-20-filled | Script Sparkle 20 Filled |
+| script-sparkle-20-regular | Script Sparkle 20 Regular |
+| script-sparkle-add-20-filled | Script Sparkle Add 20 Filled |
+| script-sparkle-add-20-regular | Script Sparkle Add 20 Regular |
+| search-pulse-16-filled | Search Pulse 16 Filled |
+| search-pulse-16-regular | Search Pulse 16 Regular |
+| search-pulse-20-filled | Search Pulse 20 Filled |
+| search-pulse-20-regular | Search Pulse 20 Regular |
+| search-pulse-add-16-filled | Search Pulse Add 16 Filled |
+| search-pulse-add-16-regular | Search Pulse Add 16 Regular |
+| search-pulse-add-20-filled | Search Pulse Add 20 Filled |
+| search-pulse-add-20-regular | Search Pulse Add 20 Regular |
+| semantic-model | Semantic Model |
+| semantic-model-40 | Semantic Model 40 |
+| semantic-model-64 | Semantic Model 64 |
+| send-circle-20-filled | Send Circle 20 Filled |
+| send-circle-20-regular | Send Circle 20 Regular |
+| settings-person-16-filled | Settings Person 16 Filled |
+| settings-person-16-regular | Settings Person 16 Regular |
+| settings-person-20-filled | Settings Person 20 Filled |
+| settings-person-20-regular | Settings Person 20 Regular |
+| settings-person-24-filled | Settings Person 24 Filled |
+| settings-person-24-regular | Settings Person 24 Regular |
+| shape-ellipse-20-filled | Shape Ellipse 20 Filled |
+| shape-ellipse-20-regular | Shape Ellipse 20 Regular |
+| shapes-20-filled | Shapes 20 Filled |
+| shapes-20-regular | Shapes 20 Regular |
+| shapes-lightning-20-filled | Shapes Lightning 20 Filled |
+| shapes-lightning-20-regular | Shapes Lightning 20 Regular |
+| shapes-settings-20-filled | Shapes Settings 20 Filled |
+| shapes-settings-20-regular | Shapes Settings 20 Regular |
+| shapes-three-16-filled | Shapes Three 16 Filled |
+| shapes-three-16-regular | Shapes Three 16 Regular |
+| shapes-three-20-filled | Shapes Three 20 Filled |
+| shapes-three-20-regular | Shapes Three 20 Regular |
+| shapes-three-24-filled | Shapes Three 24 Filled |
+| shapes-three-24-regular | Shapes Three 24 Regular |
+| shapes-three-32-filled | Shapes Three 32 Filled |
+| shapes-three-32-regular | Shapes Three 32 Regular |
+| shapes-toolbox-20-filled | Shapes Toolbox 20 Filled |
+| shapes-toolbox-20-regular | Shapes Toolbox 20 Regular |
+| shared-semantic-model | Shared Semantic Model |
+| shared-semantic-model-40 | Shared Semantic Model 40 |
+| shared-semantic-model-64 | Shared Semantic Model 64 |
+| shopping-bag-data-bar-vertical-20-filled | Shopping Bag Data Bar Vertical 20 Filled |
+| shopping-bag-data-bar-vertical-20-regular | Shopping Bag Data Bar Vertical 20 Regular |
+| signal-square-12-filled | Signal Square 12 Filled |
+| signal-square-12-regular | Signal Square 12 Regular |
+| signal-tower-12-filled | Signal Tower 12 Filled |
+| signal-tower-12-regular | Signal Tower 12 Regular |
+| slide-text-accept-dismiss-20-filled | Slide Text Accept Dismiss 20 Filled |
+| slide-text-accept-dismiss-20-regular | Slide Text Accept Dismiss 20 Regular |
+| slide-text-ribbon-20-filled | Slide Text Ribbon 20 Filled |
+| slide-text-ribbon-20-regular | Slide Text Ribbon 20 Regular |
+| slide-text-window-20-filled | Slide Text Window 20 Filled |
+| slide-text-window-20-regular | Slide Text Window 20 Regular |
+| spark-job-direction | Spark Job Direction |
+| spark-job-direction-40 | Spark Job Direction 40 |
+| spark-job-direction-64 | Spark Job Direction 64 |
+| sql-database | Sql Database |
+| sql-database-40 | Sql Database 40 |
+| sql-database-64 | Sql Database 64 |
+| square-arrow-up-down-20-filled | Square Arrow Up Down 20 Filled |
+| square-arrow-up-down-20-regular | Square Arrow Up Down 20 Regular |
+| square-arrow-up-down-24-filled | Square Arrow Up Down 24 Filled |
+| square-arrow-up-down-24-regular | Square Arrow Up Down 24 Regular |
+| square-arrow-up-down-28-filled | Square Arrow Up Down 28 Filled |
+| square-arrow-up-down-28-regular | Square Arrow Up Down 28 Regular |
+| square-database-20-filled | Square Database 20 Filled |
+| square-database-20-regular | Square Database 20 Regular |
+| square-database-24-filled | Square Database 24 Filled |
+| square-database-24-regular | Square Database 24 Regular |
+| square-database-28-filled | Square Database 28 Filled |
+| square-database-28-regular | Square Database 28 Regular |
+| square-database-arrow-up-down-20-filled | Square Database Arrow Up Down 20 Filled |
+| square-database-arrow-up-down-20-regular | Square Database Arrow Up Down 20 Regular |
+| square-database-arrow-up-down-24-filled | Square Database Arrow Up Down 24 Filled |
+| square-database-arrow-up-down-24-regular | Square Database Arrow Up Down 24 Regular |
+| square-database-arrow-up-down-28-filled | Square Database Arrow Up Down 28 Filled |
+| square-database-arrow-up-down-28-regular | Square Database Arrow Up Down 28 Regular |
+| square-globe-arrow-up-down-20-filled | Square Globe Arrow Up Down 20 Filled |
+| square-globe-arrow-up-down-20-regular | Square Globe Arrow Up Down 20 Regular |
+| square-globe-arrow-up-down-24-filled | Square Globe Arrow Up Down 24 Filled |
+| square-globe-arrow-up-down-24-regular | Square Globe Arrow Up Down 24 Regular |
+| square-globe-arrow-up-down-28-filled | Square Globe Arrow Up Down 28 Filled |
+| square-globe-arrow-up-down-28-regular | Square Globe Arrow Up Down 28 Regular |
+| square-multiple-20-filled | Square Multiple 20 Filled |
+| square-multiple-20-regular | Square Multiple 20 Regular |
+| square-multiple-arrow-up-20-filled | Square Multiple Arrow Up 20 Filled |
+| square-multiple-arrow-up-20-regular | Square Multiple Arrow Up 20 Regular |
+| square-multiple-data-bar-vertical-20-filled | Square Multiple Data Bar Vertical 20 Filled |
+| square-multiple-data-bar-vertical-20-regular | Square Multiple Data Bar Vertical 20 Regular |
+| square-multiple-diagram-20-filled | Square Multiple Diagram 20 Filled |
+| square-multiple-diagram-20-regular | Square Multiple Diagram 20 Regular |
+| square-multiple-diagram-new-20-filled | Square Multiple Diagram New 20 Filled |
+| square-multiple-diagram-new-20-regular | Square Multiple Diagram New 20 Regular |
+| square-multiple-overlap-20-filled | Square Multiple Overlap 20 Filled |
+| square-multiple-overlap-20-regular | Square Multiple Overlap 20 Regular |
+| square-multiple-overlap-24-filled | Square Multiple Overlap 24 Filled |
+| square-multiple-overlap-24-regular | Square Multiple Overlap 24 Regular |
+| square-multiple-overlap-28-filled | Square Multiple Overlap 28 Filled |
+| square-multiple-overlap-28-regular | Square Multiple Overlap 28 Regular |
+| square-multiple-overlap-32-filled | Square Multiple Overlap 32 Filled |
+| square-multiple-overlap-32-regular | Square Multiple Overlap 32 Regular |
+| square-multiple-overlap-add-32-filled | Square Multiple Overlap Add 32 Filled |
+| square-multiple-overlap-add-32-regular | Square Multiple Overlap Add 32 Regular |
+| square-multiple-overlap-eye-20-filled | Square Multiple Overlap Eye 20 Filled |
+| square-multiple-overlap-eye-20-regular | Square Multiple Overlap Eye 20 Regular |
+| square-multiple-overlap-kql-20-filled | Square Multiple Overlap Kql 20 Filled |
+| square-multiple-overlap-kql-20-regular | Square Multiple Overlap Kql 20 Regular |
+| square-multiple-overlap-kql-24-filled | Square Multiple Overlap Kql 24 Filled |
+| square-multiple-overlap-kql-24-regular | Square Multiple Overlap Kql 24 Regular |
+| square-multiple-overlap-kql-32-filled | Square Multiple Overlap Kql 32 Filled |
+| square-multiple-overlap-kql-32-regular | Square Multiple Overlap Kql 32 Regular |
+| square-multiple-overlap-line-20-filled | Square Multiple Overlap Line 20 Filled |
+| square-multiple-overlap-line-20-regular | Square Multiple Overlap Line 20 Regular |
+| square-multiple-overlap-line-24-filled | Square Multiple Overlap Line 24 Filled |
+| square-multiple-overlap-line-24-regular | Square Multiple Overlap Line 24 Regular |
+| square-multiple-overlap-line-28-filled | Square Multiple Overlap Line 28 Filled |
+| square-multiple-overlap-line-28-regular | Square Multiple Overlap Line 28 Regular |
+| square-text-lines-32-filled | Square Text Lines 32 Filled |
+| square-text-lines-32-regular | Square Text Lines 32 Regular |
+| square-waves-20-filled | Square Waves 20 Filled |
+| square-waves-20-regular | Square Waves 20 Regular |
+| square-waves-24-filled | Square Waves 24 Filled |
+| square-waves-24-regular | Square Waves 24 Regular |
+| square-waves-28-filled | Square Waves 28 Filled |
+| square-waves-28-regular | Square Waves 28 Regular |
+| stack-key-16-filled | Stack Key 16 Filled |
+| stack-key-16-regular | Stack Key 16 Regular |
+| stack-key-20-filled | Stack Key 20 Filled |
+| stack-key-20-regular | Stack Key 20 Regular |
+| stream-bracket-20-filled | Stream Bracket 20 Filled |
+| stream-bracket-20-regular | Stream Bracket 20 Regular |
+| stream-bracket-24-filled | Stream Bracket 24 Filled |
+| stream-bracket-24-regular | Stream Bracket 24 Regular |
+| stream-bracket-32-filled | Stream Bracket 32 Filled |
+| stream-bracket-32-regular | Stream Bracket 32 Regular |
+| stream-search-20-filled | Stream Search 20 Filled |
+| stream-search-20-regular | Stream Search 20 Regular |
+| stream-settings-20-filled | Stream Settings 20 Filled |
+| stream-settings-20-regular | Stream Settings 20 Regular |
+| stream-settings-24-filled | Stream Settings 24 Filled |
+| stream-settings-24-regular | Stream Settings 24 Regular |
+| stream-settings-32-filled | Stream Settings 32 Filled |
+| stream-settings-32-regular | Stream Settings 32 Regular |
+| stream-settings-bracket-20-filled | Stream Settings Bracket 20 Filled |
+| stream-settings-bracket-20-regular | Stream Settings Bracket 20 Regular |
+| stream-settings-bracket-24-filled | Stream Settings Bracket 24 Filled |
+| stream-settings-bracket-24-regular | Stream Settings Bracket 24 Regular |
+| stream-settings-bracket-32-filled | Stream Settings Bracket 32 Filled |
+| stream-settings-bracket-32-regular | Stream Settings Bracket 32 Regular |
+| streaming-dataflow | Streaming Dataflow |
+| streaming-dataflow-40 | Streaming Dataflow 40 |
+| streaming-dataflow-64 | Streaming Dataflow 64 |
+| streaming-semantic-model | Streaming Semantic Model |
+| streaming-semantic-model-40 | Streaming Semantic Model 40 |
+| streaming-semantic-model-64 | Streaming Semantic Model 64 |
+| sustainability | Sustainability |
+| sustainability-40 | Sustainability 40 |
+| sustainability-64 | Sustainability 64 |
+| table-arrow-diagonal-up-right-20-filled | Table Arrow Diagonal Up Right 20 Filled |
+| table-arrow-diagonal-up-right-20-regular | Table Arrow Diagonal Up Right 20 Regular |
+| table-border-left-20-filled | Table Border Left 20 Filled |
+| table-border-left-20-regular | Table Border Left 20 Regular |
+| table-broom-20-filled | Table Broom 20 Filled |
+| table-broom-20-regular | Table Broom 20 Regular |
+| table-column-brackets-16-filled | Table Column Brackets 16 Filled |
+| table-column-brackets-16-regular | Table Column Brackets 16 Regular |
+| table-column-brackets-20-filled | Table Column Brackets 20 Filled |
+| table-column-brackets-20-regular | Table Column Brackets 20 Regular |
+| table-column-function-16-filled | Table Column Function 16 Filled |
+| table-column-function-16-regular | Table Column Function 16 Regular |
+| table-column-function-20-filled | Table Column Function 20 Filled |
+| table-column-function-20-regular | Table Column Function 20 Regular |
+| table-column-question-16-filled | Table Column Question 16 Filled |
+| table-column-question-16-regular | Table Column Question 16 Regular |
+| table-column-question-20-filled | Table Column Question 20 Filled |
+| table-column-question-20-regular | Table Column Question 20 Regular |
+| table-column-sigma-16-filled | Table Column Sigma 16 Filled |
+| table-column-sigma-16-regular | Table Column Sigma 16 Regular |
+| table-column-sigma-20-filled | Table Column Sigma 20 Filled |
+| table-column-sigma-20-regular | Table Column Sigma 20 Regular |
+| table-database-32-filled | Table Database 32 Filled |
+| table-database-32-regular | Table Database 32 Regular |
+| table-external-20-filled | Table External 20 Filled |
+| table-external-20-regular | Table External 20 Regular |
+| table-function-20-filled | Table Function 20 Filled |
+| table-function-20-regular | Table Function 20 Regular |
+| table-header-20-filled | Table Header 20 Filled |
+| table-header-20-regular | Table Header 20 Regular |
+| table-key-20-filled | Table Key 20 Filled |
+| table-key-20-regular | Table Key 20 Regular |
+| table-kql-20-filled | Table Kql 20 Filled |
+| table-kql-20-regular | Table Kql 20 Regular |
+| table-kql-24-filled | Table Kql 24 Filled |
+| table-kql-24-regular | Table Kql 24 Regular |
+| table-kql-32-filled | Table Kql 32 Filled |
+| table-kql-32-regular | Table Kql 32 Regular |
+| table-kql-shortcut-20-filled | Table Kql Shortcut 20 Filled |
+| table-kql-shortcut-20-regular | Table Kql Shortcut 20 Regular |
+| table-lightning-link-20-filled | Table Lightning Link 20 Filled |
+| table-lightning-link-20-regular | Table Lightning Link 20 Regular |
+| table-lightning-shortcut-20-filled | Table Lightning Shortcut 20 Filled |
+| table-lightning-shortcut-20-regular | Table Lightning Shortcut 20 Regular |
+| table-link-20-filled | Table Link 20 Filled |
+| table-link-20-regular | Table Link 20 Regular |
+| table-link-triangle-20-filled | Table Link Triangle 20 Filled |
+| table-link-triangle-20-regular | Table Link Triangle 20 Regular |
+| table-multiple-arrow-curved-right-20-filled | Table Multiple Arrow Curved Right 20 Filled |
+| table-multiple-arrow-curved-right-20-regular | Table Multiple Arrow Curved Right 20 Regular |
+| table-multiple-arrow-curved-right-new-20-filled | Table Multiple Arrow Curved Right New 20 Filled |
+| table-multiple-arrow-curved-right-new-20-regular | Table Multiple Arrow Curved Right New 20 Regular |
+| table-text-cdc-20-filled | Table Text Cdc 20 Filled |
+| table-text-cdc-20-regular | Table Text Cdc 20 Regular |
+| table-triangle-20-filled | Table Triangle 20 Filled |
+| table-triangle-20-regular | Table Triangle 20 Regular |
+| table-triangle-shortcut-20-filled | Table Triangle Shortcut 20 Filled |
+| table-triangle-shortcut-20-regular | Table Triangle Shortcut 20 Regular |
+| table-wand-16-filled | Table Wand 16 Filled |
+| table-wand-16-regular | Table Wand 16 Regular |
+| table-wand-20-filled | Table Wand 20 Filled |
+| table-wand-20-regular | Table Wand 20 Regular |
+| text-abc-20-filled | Text Abc 20 Filled |
+| text-abc-20-regular | Text Abc 20 Regular |
+| text-any-20-filled | Text Any 20 Filled |
+| text-any-20-regular | Text Any 20 Regular |
+| text-bullet-list-square-pulse-20-filled | Text Bullet List Square Pulse 20 Filled |
+| text-bullet-list-square-pulse-20-regular | Text Bullet List Square Pulse 20 Regular |
+| text-bullet-list-square-pulse-24-filled | Text Bullet List Square Pulse 24 Filled |
+| text-bullet-list-square-pulse-24-regular | Text Bullet List Square Pulse 24 Regular |
+| text-byte-20-filled | Text Byte 20 Filled |
+| text-byte-20-regular | Text Byte 20 Regular |
+| text-lambda-32-filled | Text Lambda 32 Filled |
+| text-lambda-32-regular | Text Lambda 32 Regular |
+| text-number-01-20-filled | Text Number 01 20 Filled |
+| text-number-01-20-regular | Text Number 01 20 Regular |
+| text-number-1-2-20-filled | Text Number 1 2 20 Filled |
+| text-number-1-2-20-regular | Text Number 1 2 20 Regular |
+| text-number-1-2f-20-filled | Text Number 1 2f 20 Filled |
+| text-number-1-2f-20-regular | Text Number 1 2f 20 Regular |
+| text-number-123-20-filled | Text Number 123 20 Filled |
+| text-number-123-20-regular | Text Number 123 20 Regular |
+| text-number-12l-20-filled | Text Number 12l 20 Filled |
+| text-number-12l-20-regular | Text Number 12l 20 Regular |
+| text-number-12s-20-filled | Text Number 12s 20 Filled |
+| text-number-12s-20-regular | Text Number 12s 20 Regular |
+| text-number-field-20-filled | Text Number Field 20 Filled |
+| text-number-field-20-regular | Text Number Field 20 Regular |
+| text-number-sequence-20-filled | Text Number Sequence 20 Filled |
+| text-number-sequence-20-regular | Text Number Sequence 20 Regular |
+| text-py-20-filled | Text Py 20 Filled |
+| text-py-20-regular | Text Py 20 Regular |
+| toggle-multiple-sparkles-16-filled | Toggle Multiple Sparkles 16 Filled |
+| toggle-multiple-sparkles-16-regular | Toggle Multiple Sparkles 16 Regular |
+| toggle-multiple-sparkles-20-filled | Toggle Multiple Sparkles 20 Filled |
+| toggle-multiple-sparkles-20-regular | Toggle Multiple Sparkles 20 Regular |
+| tooltip-data-bar-vertical-20-filled | Tooltip Data Bar Vertical 20 Filled |
+| tooltip-data-bar-vertical-20-regular | Tooltip Data Bar Vertical 20 Regular |
+| trophy-data-bar-vertical-20-filled | Trophy Data Bar Vertical 20 Filled |
+| trophy-data-bar-vertical-20-regular | Trophy Data Bar Vertical 20 Regular |
+| trophy-prohibited-20-filled | Trophy Prohibited 20 Filled |
+| trophy-prohibited-20-regular | Trophy Prohibited 20 Regular |
+| trophy-prohibited-24-filled | Trophy Prohibited 24 Filled |
+| trophy-prohibited-24-regular | Trophy Prohibited 24 Regular |
+| trophy-prohibited-32-filled | Trophy Prohibited 32 Filled |
+| trophy-prohibited-32-regular | Trophy Prohibited 32 Regular |
+| user-data-function | User Data Function |
+| user-data-function-40 | User Data Function 40 |
+| user-data-function-64 | User Data Function 64 |
+| variable-library | Variable Library |
+| variable-library-40 | Variable Library 40 |
+| variable-library-64 | Variable Library 64 |
+| vehicle-ship-12-filled | Vehicle Ship 12 Filled |
+| vehicle-ship-12-regular | Vehicle Ship 12 Regular |
+| vehicle-subway-12-filled | Vehicle Subway 12 Filled |
+| vehicle-subway-12-regular | Vehicle Subway 12 Regular |
+| window-asterisk-20-filled | Window Asterisk 20 Filled |
+| window-asterisk-20-regular | Window Asterisk 20 Regular |
+| window-asterisk-24-filled | Window Asterisk 24 Filled |
+| window-asterisk-24-regular | Window Asterisk 24 Regular |
+| window-asterisk-32-filled | Window Asterisk 32 Filled |
+| window-asterisk-32-regular | Window Asterisk 32 Regular |
+| window-asterisk-new-20-filled | Window Asterisk New 20 Filled |
+| window-asterisk-new-20-regular | Window Asterisk New 20 Regular |
+| window-bullet-list-filter-20-filled | Window Bullet List Filter 20 Filled |
+| window-bullet-list-filter-20-regular | Window Bullet List Filter 20 Regular |
+| window-checkmark-20-filled | Window Checkmark 20 Filled |
+| window-checkmark-20-regular | Window Checkmark 20 Regular |
+| window-checkmark-32-filled | Window Checkmark 32 Filled |
+| window-checkmark-32-regular | Window Checkmark 32 Regular |
+| window-code-20-filled | Window Code 20 Filled |
+| window-code-20-regular | Window Code 20 Regular |
+| window-database-arrow-up-20-filled | Window Database Arrow Up 20 Filled |
+| window-database-arrow-up-20-regular | Window Database Arrow Up 20 Regular |
+| window-gauge-20-filled | Window Gauge 20 Filled |
+| window-gauge-20-regular | Window Gauge 20 Regular |
+| window-interface-20-filled | Window Interface 20 Filled |
+| window-interface-20-regular | Window Interface 20 Regular |
+| window-interface-24-filled | Window Interface 24 Filled |
+| window-interface-24-regular | Window Interface 24 Regular |
+| window-math-formula-24-filled | Window Math Formula 24 Filled |
+| window-math-formula-24-regular | Window Math Formula 24 Regular |
+| window-person-20-filled | Window Person 20 Filled |
+| window-person-20-regular | Window Person 20 Regular |
+| window-pulse-16-filled | Window Pulse 16 Filled |
+| window-pulse-16-regular | Window Pulse 16 Regular |
+| window-pulse-20-filled | Window Pulse 20 Filled |
+| window-pulse-20-regular | Window Pulse 20 Regular |
+| window-pulse-24-filled | Window Pulse 24 Filled |
+| window-pulse-24-regular | Window Pulse 24 Regular |
+| window-relationship-16-filled | Window Relationship 16 Filled |
+| window-relationship-16-regular | Window Relationship 16 Regular |
+| window-relationship-20-filled | Window Relationship 20 Filled |
+| window-relationship-20-regular | Window Relationship 20 Regular |
+| window-relationship-off-16-filled | Window Relationship Off 16 Filled |
+| window-relationship-off-16-regular | Window Relationship Off 16 Regular |
+| window-relationship-off-20-filled | Window Relationship Off 20 Filled |
+| window-relationship-off-20-regular | Window Relationship Off 20 Regular |
+| window-sparkle-20-filled | Window Sparkle 20 Filled |
+| window-sparkle-20-regular | Window Sparkle 20 Regular |
+| window-sparkle-new-20-filled | Window Sparkle New 20 Filled |
+| window-sparkle-new-20-regular | Window Sparkle New 20 Regular |
+| window-synapse-link-20-filled | Window Synapse Link 20 Filled |
+| window-synapse-link-20-regular | Window Synapse Link 20 Regular |
+| window-tree-20-filled | Window Tree 20 Filled |
+| window-tree-20-regular | Window Tree 20 Regular |
+| window-tree-arrow-diagonal-up-right-20-filled | Window Tree Arrow Diagonal Up Right 20 Filled |
+| window-tree-arrow-diagonal-up-right-20-regular | Window Tree Arrow Diagonal Up Right 20 Regular |
 
 ## Azure icon slugs (prefix: `azure`)
 
 | Slug | Service |
 |------|---------|
-| event-hub | Azure Event Hubs |
-| event-grid | Azure Event Grid |
-| iot-hub | Azure IoT Hub |
-| stream-analytics | Azure Stream Analytics |
-| data-factory | Azure Data Factory |
-| synapse | Azure Synapse Analytics |
-| databricks | Azure Databricks |
-| openai | Azure OpenAI |
-| cognitive-services | Azure Cognitive Services |
-| machine-learning | Azure Machine Learning |
-| purview | Microsoft Purview |
-| entra-id | Microsoft Entra ID |
-| key-vault | Azure Key Vault |
-| storage-account | Azure Storage Account |
-| data-lake | Azure Data Lake Storage Gen2 |
-| cosmos-db | Azure Cosmos DB |
-| sql-database | Azure SQL Database |
-| sql-managed-instance | Azure SQL Managed Instance |
-| service-bus | Azure Service Bus |
-| api-management | Azure API Management |
-| app-service | Azure App Service |
-| functions | Azure Functions |
-| container-apps | Azure Container Apps |
-| aks | Azure Kubernetes Service |
-| virtual-network | Azure Virtual Network |
-| private-endpoint | Azure Private Endpoint |
-| monitor | Azure Monitor |
-| log-analytics | Azure Log Analytics |
-| microsoft-fabric | Microsoft Fabric |
-| power-bi | Power BI |
+| analytics-141-sql-data-warehouses | Analytics 141 Sql Data Warehouses |
+| analytics-142-hd-insight-clusters | Analytics 142 Hd Insight Clusters |
+| analytics-143-data-lake-analytics | Analytics 143 Data Lake Analytics |
+| analytics-144-event-hubs | Analytics 144 Event Hubs |
+| analytics-145-azure-data-explorer-clusters | Analytics 145 Azure Data Explorer Clusters |
+| analytics-146-data-factory | Analytics 146 Data Factory |
+| analytics-147-stream-analytics | Analytics 147 Stream Analytics |
+| analytics-148-analysis-services | Analytics 148 Analysis Services |
+| analytics-149-event-hub-clusters | Analytics 149 Event Hub Clusters |
+| analytics-150-data-lake-store-gen1 | Analytics 150 Data Lake Store Gen1 |
+| analytics-151-log-analytics-workspaces | Analytics 151 Log Analytics Workspaces |
+| azurestack-1-infrastructure-backup | Azurestack 1 Infrastructure Backup |
+| azurestack-2-capacity | Azurestack 2 Capacity |
+| azurestack-3-offers | Azurestack 3 Offers |
+| azurestack-4-user-subscriptions | Azurestack 4 User Subscriptions |
+| azurestack-484-edgemanagement | Azurestack 484 Edgemanagement |
+| azurestack-5-marketplace-management | Azurestack 5 Marketplace Management |
+| azurestack-6-plans | Azurestack 6 Plans |
+| azurestack-7-azure-stack | Azurestack 7 Azure Stack |
+| azurestack-8-updates | Azurestack 8 Updates |
+| azurestack-9-region-management | Azurestack 9 Region Management |
+| blockchain-363-applications | Blockchain 363 Applications |
+| blockchain-364-outbound-connection | Blockchain 364 Outbound Connection |
+| blockchain-365-streaming-service | Blockchain 365 Streaming Service |
+| blockchain-366-azure-blockchain-service | Blockchain 366 Azure Blockchain Service |
+| blockchain-367-azure-token-service | Blockchain 367 Azure Token Service |
+| blockchain-369-bc-devkit | Blockchain 369 Bc Devkit |
+| blockchain-374-abs-member | Blockchain 374 Abs Member |
+| blockchain-375-consortium | Blockchain 375 Consortium |
+| command-0097-applysplitting | Command 0097 Applysplitting |
+| command-0098-splitavailable | Command 0098 Splitavailable |
+| command-0099-repair | Command 0099 Repair |
+| command-1000-add-team-member | Command 1000 Add Team Member |
+| command-1001-add-tile | Command 1001 Add Tile |
+| command-1002-add | Command 1002 Add |
+| command-1003-arrow-down | Command 1003 Arrow Down |
+| command-1004-arrow-left | Command 1004 Arrow Left |
+| command-1005-arrow-right | Command 1005 Arrow Right |
+| command-1006-arrow-up | Command 1006 Arrow Up |
+| command-1007-attachment | Command 1007 Attachment |
+| command-1008-avatar-default | Command 1008 Avatar Default |
+| command-1009-avatar-unknown | Command 1009 Avatar Unknown |
+| command-1010-azure-quickstart | Command 1010 Azure Quickstart |
+| command-1011-backlog | Command 1011 Backlog |
+| command-1012-book | Command 1012 Book |
+| command-1013-calendar | Command 1013 Calendar |
+| command-1014-cancelled | Command 1014 Cancelled |
+| command-1015-check | Command 1015 Check |
+| command-1016-wrench | Command 1016 Wrench |
+| command-1017-variables | Command 1017 Variables |
+| command-1018-upload | Command 1018 Upload |
+| command-1019-unpin | Command 1019 Unpin |
+| command-1020-unlock | Command 1020 Unlock |
+| command-1021-undo | Command 1021 Undo |
+| command-1022-triangle | Command 1022 Triangle |
+| command-1023-trend-up | Command 1023 Trend Up |
+| command-1024-trend-down | Command 1024 Trend Down |
+| command-1025-trash-outline | Command 1025 Trash Outline |
+| command-1026-tools | Command 1026 Tools |
+| command-1027-thumbs-up | Command 1027 Thumbs Up |
+| command-1028-thumbs-down | Command 1028 Thumbs Down |
+| command-1029-tasks | Command 1029 Tasks |
+| command-1030-tags | Command 1030 Tags |
+| command-1031-table | Command 1031 Table |
+| command-1032-swap | Command 1032 Swap |
+| command-1033-support | Command 1033 Support |
+| command-1034-subtract | Command 1034 Subtract |
+| command-1035-stop | Command 1035 Stop |
+| command-1036-start | Command 1036 Start |
+| command-1037-smiley-neutral | Command 1037 Smiley Neutral |
+| command-1038-sign-out | Command 1038 Sign Out |
+| command-1039-show | Command 1039 Show |
+| command-1040-search | Command 1040 Search |
+| command-1041-save-all | Command 1041 Save All |
+| command-1042-save | Command 1042 Save |
+| command-1043-sad | Command 1043 Sad |
+| command-1044-retain | Command 1044 Retain |
+| command-1045-request | Command 1045 Request |
+| command-1046-release | Command 1046 Release |
+| command-1047-refresh | Command 1047 Refresh |
+| command-1048-redo | Command 1048 Redo |
+| command-1049-queued | Command 1049 Queued |
+| command-1050-question | Command 1050 Question |
+| command-1051-query | Command 1051 Query |
+| command-1052-publish | Command 1052 Publish |
+| command-1053-properties | Command 1053 Properties |
+| command-1054-power-up | Command 1054 Power Up |
+| command-1055-postpone | Command 1055 Postpone |
+| command-1056-pin | Command 1056 Pin |
+| command-1057-person-with-friend | Command 1057 Person With Friend |
+| command-1058-person | Command 1058 Person |
+| command-1059-pending | Command 1059 Pending |
+| command-1060-paused | Command 1060 Paused |
+| command-1061-notifications | Command 1061 Notifications |
+| command-1062-more | Command 1062 More |
+| command-1063-columns | Command 1063 Columns |
+| command-1064-code | Command 1064 Code |
+| command-1065-collapse | Command 1065 Collapse |
+| command-1066-clock | Command 1066 Clock |
+| command-1067-chevron-up | Command 1067 Chevron Up |
+| command-1068-chevron-down | Command 1068 Chevron Down |
+| command-1069-message | Command 1069 Message |
+| command-1070-mail | Command 1070 Mail |
+| command-1071-log | Command 1071 Log |
+| command-1072-lock | Command 1072 Lock |
+| command-1073-link | Command 1073 Link |
+| command-1074-line | Command 1074 Line |
+| command-1075-launch | Command 1075 Launch |
+| command-1076-key | Command 1076 Key |
+| command-1077-insert | Command 1077 Insert |
+| command-1078-inactive | Command 1078 Inactive |
+| command-1079-history | Command 1079 History |
+| command-1080-hide | Command 1080 Hide |
+| command-1081-help | Command 1081 Help |
+| command-1082-happy | Command 1082 Happy |
+| command-1083-guide | Command 1083 Guide |
+| command-1084-go | Command 1084 Go |
+| command-1085-globe | Command 1085 Globe |
+| command-1086-get-more-licenses | Command 1086 Get More Licenses |
+| command-1087-get-started | Command 1087 Get Started |
+| command-1088-gear | Command 1088 Gear |
+| command-1089-folder | Command 1089 Folder |
+| command-1090-filter | Command 1090 Filter |
+| command-1091-filter-remove | Command 1091 Filter Remove |
+| command-1092-file | Command 1092 File |
+| command-1093-feedback | Command 1093 Feedback |
+| command-1094-favorite | Command 1094 Favorite |
+| command-1095-expand | Command 1095 Expand |
+| command-1096-editor-column | Command 1096 Editor Column |
+| command-1097-download | Command 1097 Download |
+| command-1098-disconnect | Command 1098 Disconnect |
+| command-1099-discard | Command 1099 Discard |
+| command-1100-disable | Command 1100 Disable |
+| command-1101-diagnostics | Command 1101 Diagnostics |
+| command-1102-customize-tile | Command 1102 Customize Tile |
+| command-1103-copy | Command 1103 Copy |
+| command-1104-console | Command 1104 Console |
+| command-1105-connect | Command 1105 Connect |
+| command-1106-commit | Command 1106 Commit |
+| command-1107-bug | Command 1107 Bug |
+| command-1108-calendar | Command 1108 Calendar |
+| command-1109-tooltip | Command 1109 Tooltip |
+| command-1110-description-info | Command 1110 Description Info |
+| command-1111-details | Command 1111 Details |
+| command-1112-capture | Command 1112 Capture |
+| command-1113-double-chevron | Command 1113 Double Chevron |
+| command-1114-all-services | Command 1114 All Services |
+| command-1115-azure-portal | Command 1115 Azure Portal |
+| command-1116-edit | Command 1116 Edit |
+| command-1117-error | Command 1117 Error |
+| command-1118-go | Command 1118 Go |
+| command-1119-heartpulse | Command 1119 Heartpulse |
+| command-1120-hamburger | Command 1120 Hamburger |
+| command-1121-monitor | Command 1121 Monitor |
+| command-1122-move | Command 1122 Move |
+| command-1123-reimage | Command 1123 Reimage |
+| command-1124-resource | Command 1124 Resource |
+| command-1125-warning | Command 1125 Warning |
+| command-1127-globe | Command 1127 Globe |
+| command-1128-upsell | Command 1128 Upsell |
+| compute-21-virtual-machine | Compute 21 Virtual Machine |
+| compute-22-container-instances | Compute 22 Container Instances |
+| compute-23-kubernetes-services | Compute 23 Kubernetes Services |
+| compute-24-mesh-applications | Compute 24 Mesh Applications |
+| compute-25-availability-sets | Compute 25 Availability Sets |
+| compute-26-disks-snapshots | Compute 26 Disks Snapshots |
+| compute-27-os-images-(classic) | Compute 27 Os Images (classic) |
+| compute-28-virtual-machines-(classic) | Compute 28 Virtual Machines (classic) |
+| compute-29-function-apps | Compute 29 Function Apps |
+| compute-30-cloud-services-(classic) | Compute 30 Cloud Services (classic) |
+| compute-31-batch-accounts | Compute 31 Batch Accounts |
+| compute-32-disks | Compute 32 Disks |
+| compute-33-images | Compute 33 Images |
+| compute-34-vm-scale-sets | Compute 34 Vm Scale Sets |
+| compute-35-app-services | Compute 35 App Services |
+| compute-36-service-fabric-clusters | Compute 36 Service Fabric Clusters |
+| compute-37-image-definitions | Compute 37 Image Definitions |
+| compute-38-image-versions | Compute 38 Image Versions |
+| compute-39-shared-image-galleries | Compute 39 Shared Image Galleries |
+| compute-398-disk-encryption | Compute 398 Disk Encryption |
+| compute-40-vm-images-(classic) | Compute 40 Vm Images (classic) |
+| compute-41-disks-(classic) | Compute 41 Disks (classic) |
+| compute-412-ssh-keys | Compute 412 Ssh Keys |
+| compute-42-container-services-(deprecated) | Compute 42 Container Services (deprecated) |
+| containers-101-kubernetes-services | Containers 101 Kubernetes Services |
+| containers-102-batch-accounts | Containers 102 Batch Accounts |
+| containers-103-app-services | Containers 103 App Services |
+| containers-104-container-instances | Containers 104 Container Instances |
+| containers-105-container-registries | Containers 105 Container Registries |
+| containers-106-service-fabric-clusters | Containers 106 Service Fabric Clusters |
+| containers-107-container-services-(deprecated) | Containers 107 Container Services (deprecated) |
+| databases-121-azure-cosmos-db | Databases 121 Azure Cosmos Db |
+| databases-122-azure-database-mysql-server | Databases 122 Azure Database Mysql Server |
+| databases-123-azure-database-mariadb-server | Databases 123 Azure Database Mariadb Server |
+| databases-124-azure-sql-vm | Databases 124 Azure Sql Vm |
+| databases-125-azure-sql-data-warehouse | Databases 125 Azure Sql Data Warehouse |
+| databases-126-data-factory | Databases 126 Data Factory |
+| databases-127-virtual-clusters | Databases 127 Virtual Clusters |
+| databases-128-elastic-job-agents | Databases 128 Elastic Job Agents |
+| databases-130-sql-database | Databases 130 Sql Database |
+| databases-131-azure-database-postgresql-server | Databases 131 Azure Database Postgresql Server |
+| databases-132-sql-server | Databases 132 Sql Server |
+| databases-133-azure-database-migration-services | Databases 133 Azure Database Migration Services |
+| databases-134-sql-elastic-pools | Databases 134 Sql Elastic Pools |
+| databases-135-managed-database | Databases 135 Managed Database |
+| databases-136-sql-managed-instance | Databases 136 Sql Managed Instance |
+| databases-137-azure-sql-server-stretch-databases | Databases 137 Azure Sql Server Stretch Databases |
+| databases-137-cache-redis | Databases 137 Cache Redis |
+| databases-138-azure-synapse | Databases 138 Azure Synapse |
+| databases-138-sql-elastic-pools | Databases 138 Sql Elastic Pools |
+| databases-139-instance-pools | Databases 139 Instance Pools |
+| devops-261-azure-devops | Devops 261 Azure Devops |
+| devops-262-application-insights | Devops 262 Application Insights |
+| devops-263-api-management-services | Devops 263 Api Management Services |
+| devops-264-devtest-labs | Devops 264 Devtest Labs |
+| devops-265-lab-services | Devops 265 Lab Services |
+| general-1-all-resources | General 1 All Resources |
+| general-10-quickstart-center | General 10 Quickstart Center |
+| general-11-management-groups | General 11 Management Groups |
+| general-12-billing | General 12 Billing |
+| general-13-help-and-support | General 13 Help And Support |
+| general-14-tags | General 14 Tags |
+| general-15-dashboard | General 15 Dashboard |
+| general-16-free-services | General 16 Free Services |
+| general-17-home | General 17 Home |
+| general-19-cost-management | General 19 Cost Management |
+| general-2-subscriptions | General 2 Subscriptions |
+| general-20-allservices | General 20 Allservices |
+| general-3-reservations | General 3 Reservations |
+| general-4-service-health | General 4 Service Health |
+| general-5-information | General 5 Information |
+| general-6-recent | General 6 Recent |
+| general-7-resource-groups | General 7 Resource Groups |
+| general-8-marketplace | General 8 Marketplace |
+| general-9-templates | General 9 Templates |
+| icon-iot-691-databoxgateway | Icon Iot 691 Databoxgateway |
+| identity-221-azure-active-directory | Identity 221 Azure Active Directory |
+| identity-222-azure-ad-domain-services | Identity 222 Azure Ad Domain Services |
+| identity-223-groups | Identity 223 Groups |
+| identity-224-active-directory-connect-health | Identity 224 Active Directory Connect Health |
+| identity-225-enterprise-applications | Identity 225 Enterprise Applications |
+| identity-227-managed-identities | Identity 227 Managed Identities |
+| identity-228-azure-ad-b2c | Identity 228 Azure Ad B2c |
+| identity-229-azure-information-protection | Identity 229 Azure Information Protection |
+| identity-230-users | Identity 230 Users |
+| identity-231-azure-ad-identity-protection | Identity 231 Azure Ad Identity Protection |
+| identity-232-app-registrations | Identity 232 App Registrations |
+| identity-233-conditional-access | Identity 233 Conditional Access |
+| identity-234-azure-ad-privilege-identity-mapping | Identity 234 Azure Ad Privilege Identity Mapping |
+| identity-235-identity-governance | Identity 235 Identity Governance |
+| integration-204-logic-apps | Integration 204 Logic Apps |
+| integration-205-api-management-services | Integration 205 Api Management Services |
+| integration-206-event-grid-topics | Integration 206 Event Grid Topics |
+| integration-207-data-factories | Integration 207 Data Factories |
+| integration-208-sql-server-stretch-databases | Integration 208 Sql Server Stretch Databases |
+| integration-209-azure-service-bus-relays | Integration 209 Azure Service Bus Relays |
+| integration-210-logic-apps-custom-connector | Integration 210 Logic Apps Custom Connector |
+| integration-211-data-box-edge | Integration 211 Data Box Edge |
+| integration-212-azure-api-for-fhir | Integration 212 Azure Api For Fhir |
+| integration-213-software-as-a-service | Integration 213 Software As A Service |
+| integration-214-azure-service-bus | Integration 214 Azure Service Bus |
+| integration-215-event-grid-domains | Integration 215 Event Grid Domains |
+| integration-216-azure-data-catalog | Integration 216 Azure Data Catalog |
+| integration-217-azure-storsimple-device-managers | Integration 217 Azure Storsimple Device Managers |
+| integration-218-integration-accounts | Integration 218 Integration Accounts |
+| integration-219-app-configuration | Integration 219 App Configuration |
+| integration-220-sendgrid-accounts | Integration 220 Sendgrid Accounts |
+| integration-221-event-grid-subscriptions | Integration 221 Event Grid Subscriptions |
+| integration-555-integration-service-environments | Integration 555 Integration Service Environments |
+| intune-329-intune | Intune 329 Intune |
+| intune-330-ebooks | Intune 330 Ebooks |
+| intune-331-client-apps | Intune 331 Client Apps |
+| intune-332-devices | Intune 332 Devices |
+| intune-333-device-compliance | Intune 333 Device Compliance |
+| intune-334-exchange-on-premises-access | Intune 334 Exchange On Premises Access |
+| intune-335-software-updates | Intune 335 Software Updates |
+| intune-336-security-baselines | Intune 336 Security Baselines |
+| intune-337-device-enrollment | Intune 337 Device Enrollment |
+| intune-338-device-configuration | Intune 338 Device Configuration |
+| intune-339-exchange-access | Intune 339 Exchange Access |
+| intune-340-roles | Intune 340 Roles |
+| intune-341-troubleshoot | Intune 341 Troubleshoot |
+| intune-342-tenant-status | Intune 342 Tenant Status |
+| intune-343-intune-for-education | Intune 343 Intune For Education |
+| intune-344-intune-app-protection | Intune 344 Intune App Protection |
+| iot-181-time-series-insights-environments | Iot 181 Time Series Insights Environments |
+| iot-182-iot-hub | Iot 182 Iot Hub |
+| iot-183-event-grid-subscriptions | Iot 183 Event Grid Subscriptions |
+| iot-184-iot-central-applications | Iot 184 Iot Central Applications |
+| iot-185-azure-maps-accounts | Iot 185 Azure Maps Accounts |
+| iot-186-iot-edge | Iot 186 Iot Edge |
+| iot-187-stream-analytics-jobs | Iot 187 Stream Analytics Jobs |
+| iot-188-time-series-insights-event-sources | Iot 188 Time Series Insights Event Sources |
+| iot-189-digital-twins | Iot 189 Digital Twins |
+| iot-190-azure-sphere | Iot 190 Azure Sphere |
+| iot-191-azure-cosmos-db | Iot 191 Azure Cosmos Db |
+| iot-192-time-series-insights-access-policies | Iot 192 Time Series Insights Access Policies |
+| iot-193-machine-learning-studio-workspaces | Iot 193 Machine Learning Studio Workspaces |
+| iot-194-machine-learning-studio-web-service-plans | Iot 194 Machine Learning Studio Web Service Plans |
+| iot-195-event-hubs | Iot 195 Event Hubs |
+| iot-196-notification-hubs | Iot 196 Notification Hubs |
+| iot-197-function-app | Iot 197 Function App |
+| iot-198-time-series-data-sets | Iot 198 Time Series Data Sets |
+| iot-200-machine-learning-studio-web-services | Iot 200 Machine Learning Studio Web Services |
+| iot-201-logic-apps | Iot 201 Logic Apps |
+| iot-202-data-box-edge | Iot 202 Data Box Edge |
+| iot-203-windows10-core-services | Iot 203 Windows10 Core Services |
+| iot-204-notification-hub-namespaces | Iot 204 Notification Hub Namespaces |
+| iot-204-rtos | Iot 204 Rtos |
+| iot-326-manage | Iot 326 Manage |
+| iot-369-device-provisioning-services | Iot 369 Device Provisioning Services |
+| machinelearning-161-batch-ai | Machinelearning 161 Batch Ai |
+| machinelearning-162-cognitive-services | Machinelearning 162 Cognitive Services |
+| machinelearning-163-machine-learning-studio-web-services | Machinelearning 163 Machine Learning Studio Web Services |
+| machinelearning-164-genomics | Machinelearning 164 Genomics |
+| machinelearning-165-bot-services | Machinelearning 165 Bot Services |
+| machinelearning-166-machine-learning-service-workspaces | Machinelearning 166 Machine Learning Service Workspaces |
+| machinelearning-167-machine-learning-studio-workspaces | Machinelearning 167 Machine Learning Studio Workspaces |
+| machinelearning-168-machine-learning-studio-web-service-plans | Machinelearning 168 Machine Learning Studio Web Service Plans |
+| machinelearning-698-remoterendering | Machinelearning 698 Remoterendering |
+| manage-301-advisor | Manage 301 Advisor |
+| manage-302-cost-management-and-billing | Manage 302 Cost Management And Billing |
+| manage-303-user-privacy | Manage 303 User Privacy |
+| manage-304-blueprints | Manage 304 Blueprints |
+| manage-305-activity-log | Manage 305 Activity Log |
+| manage-306-diagnostics-settings | Manage 306 Diagnostics Settings |
+| manage-307-log-analytics-workspaces | Manage 307 Log Analytics Workspaces |
+| manage-308-scheduler-job-collections | Manage 308 Scheduler Job Collections |
+| manage-309-compliance | Manage 309 Compliance |
+| manage-310-application-insights | Manage 310 Application Insights |
+| manage-311-managed-desktop | Manage 311 Managed Desktop |
+| manage-312-my-customers | Manage 312 My Customers |
+| manage-313-managed-applications-center | Manage 313 Managed Applications Center |
+| manage-314-customer-lockbox-for-microsoft-azure | Manage 314 Customer Lockbox For Microsoft Azure |
+| manage-315-recovery-services-vaults | Manage 315 Recovery Services Vaults |
+| manage-316-policy | Manage 316 Policy |
+| manage-317-monitor | Manage 317 Monitor |
+| manage-318-resource-graph-explorer | Manage 318 Resource Graph Explorer |
+| manage-319-metrics | Manage 319 Metrics |
+| manage-320-alerts | Manage 320 Alerts |
+| manage-321-solutions | Manage 321 Solutions |
+| manage-322-automation-accounts | Manage 322 Automation Accounts |
+| manage-323-network-watcher | Manage 323 Network Watcher |
+| manage-324-operation-log-(classic) | Manage 324 Operation Log (classic) |
+| manage-325-service-providers | Manage 325 Service Providers |
+| manage-326-education | Manage 326 Education |
+| manage-327-service-catalog-mad | Manage 327 Service Catalog Mad |
+| manage-450-machinesazurearc | Manage 450 Machinesazurearc |
+| manage-756-azurearc | Manage 756 Azurearc |
+| migrate-281-azure-migrate | Migrate 281 Azure Migrate |
+| migrate-282-recovery-services-vaults | Migrate 282 Recovery Services Vaults |
+| migrate-283-azure-database-migration-services | Migrate 283 Azure Database Migration Services |
+| migrate-284-data-box | Migrate 284 Data Box |
+| migrate-285-cost-management-and-billing | Migrate 285 Cost Management And Billing |
+| migrate-286-data-box-edge | Migrate 286 Data Box Edge |
+| networking-310-nat | Networking 310 Nat |
+| networking-361-azure-firewall-manager | Networking 361 Azure Firewall Manager |
+| networking-362-frontdoor-waf-policies | Networking 362 Frontdoor Waf Policies |
+| networking-363-proximity-placement-groups | Networking 363 Proximity Placement Groups |
+| networking-371-reserved-ip-addresses-(classic) | Networking 371 Reserved Ip Addresses (classic) |
+| networking-372-public-ip-prefixes | Networking 372 Public Ip Prefixes |
+| networking-61-virtual-networks | Networking 61 Virtual Networks |
+| networking-62-load-balancers | Networking 62 Load Balancers |
+| networking-63-virtual-network-gateways | Networking 63 Virtual Network Gateways |
+| networking-64-dns-zones | Networking 64 Dns Zones |
+| networking-65-traffic-manager-profiles | Networking 65 Traffic Manager Profiles |
+| networking-66-network-watcher | Networking 66 Network Watcher |
+| networking-67-network-security-groups | Networking 67 Network Security Groups |
+| networking-68-public-ip-addresses-(classic) | Networking 68 Public Ip Addresses (classic) |
+| networking-69-public-ip-addresses | Networking 69 Public Ip Addresses |
+| networking-70-on-premises-data-gateways | Networking 70 On Premises Data Gateways |
+| networking-71-route-filters | Networking 71 Route Filters |
+| networking-72-ddos-protection-plans | Networking 72 Ddos Protection Plans |
+| networking-73-front-doors | Networking 73 Front Doors |
+| networking-74-virtual-wan-gateway | Networking 74 Virtual Wan Gateway |
+| networking-75-virtual-networks-(classic) | Networking 75 Virtual Networks (classic) |
+| networking-76-application-gateways | Networking 76 Application Gateways |
+| networking-77-local-network-gateways | Networking 77 Local Network Gateways |
+| networking-78-cdn-profiles | Networking 78 Cdn Profiles |
+| networking-79-expressroute-circuits | Networking 79 Expressroute Circuits |
+| networking-80-network-interfaces | Networking 80 Network Interfaces |
+| networking-81-connections | Networking 81 Connections |
+| networking-82-route-tables | Networking 82 Route Tables |
+| networking-83-application-security-groups | Networking 83 Application Security Groups |
+| networking-84-firewalls | Networking 84 Firewalls |
+| networking-85-service-endpoint-policies | Networking 85 Service Endpoint Policies |
+| other-345-resource | Other 345 Resource |
+| other-346-host-groups | Other 346 Host Groups |
+| other-347-hosts | Other 347 Hosts |
+| other-349-resource-explorer | Other 349 Resource Explorer |
+| other-350-mindaro | Other 350 Mindaro |
+| other-351-sql-server-registries | Other 351 Sql Server Registries |
+| other-352-spatial-anchor-accounts | Other 352 Spatial Anchor Accounts |
+| other-353-virtual-wans | Other 353 Virtual Wans |
+| other-354-afec | Other 354 Afec |
+| other-355-wac | Other 355 Wac |
+| other-356-hydra-components | Other 356 Hydra Components |
+| other-357-cloud | Other 357 Cloud |
+| other-358-universal-print-service | Other 358 Universal Print Service |
+| other-438-sap-azure-monitor | Other 438 Sap Azure Monitor |
+| other-855-privatemarketplace | Other 855 Privatemarketplace |
+| security-241-security-center | Security 241 Security Center |
+| security-242-application-gateway | Security 242 Application Gateway |
+| security-243-virtual-network-gateways | Security 243 Virtual Network Gateways |
+| security-244-application-security-groups | Security 244 Application Security Groups |
+| security-245-key-vaults | Security 245 Key Vaults |
+| security-247-azure-active-directory | Security 247 Azure Active Directory |
+| security-248-azure-sentinel | Security 248 Azure Sentinel |
+| security-266-azure-information-protection | Security 266 Azure Information Protection |
+| security-422-azureattestation | Security 422 Azureattestation |
+| security-572-extendedsecurityupdates | Security 572 Extendedsecurityupdates |
+| status-500-cancelled | Status 500 Cancelled |
+| status-501-cancelled-outline | Status 501 Cancelled Outline |
+| status-502-disabled | Status 502 Disabled |
+| status-503-disabled-outline | Status 503 Disabled Outline |
+| status-504-failed | Status 504 Failed |
+| status-505-failed-outline | Status 505 Failed Outline |
+| status-506-info | Status 506 Info |
+| status-507-info-outline | Status 507 Info Outline |
+| status-508-none | Status 508 None |
+| status-509-none-outline | Status 509 None Outline |
+| status-510-pending | Status 510 Pending |
+| status-511-pending-outline | Status 511 Pending Outline |
+| status-512-stopped | Status 512 Stopped |
+| status-513-stopped-outline | Status 513 Stopped Outline |
+| status-514-success | Status 514 Success |
+| status-515-success-outline | Status 515 Success Outline |
+| status-516-unknown | Status 516 Unknown |
+| status-517-unknown-outline | Status 517 Unknown Outline |
+| status-518-update | Status 518 Update |
+| status-519-update-outline | Status 519 Update Outline |
+| status-520-upsell | Status 520 Upsell |
+| status-521-upsell-outline | Status 521 Upsell Outline |
+| status-522-warning | Status 522 Warning |
+| status-523-warning-outline | Status 523 Warning Outline |
+| storage-100-import-export-jobs | Storage 100 Import Export Jobs |
+| storage-400-azure-fileshare | Storage 400 Azure Fileshare |
+| storage-776-azurehcpcache | Storage 776 Azurehcpcache |
+| storage-86-storage-accounts | Storage 86 Storage Accounts |
+| storage-87-storage-accounts-(classic) | Storage 87 Storage Accounts (classic) |
+| storage-88-recovery-services-vaults | Storage 88 Recovery Services Vaults |
+| storage-89-storsimple-device-managers | Storage 89 Storsimple Device Managers |
+| storage-90-data-lake-storage-gen1 | Storage 90 Data Lake Storage Gen1 |
+| storage-91-storage-explorer | Storage 91 Storage Explorer |
+| storage-92-storsimple-data-managers | Storage 92 Storsimple Data Managers |
+| storage-93-storage-sync-services | Storage 93 Storage Sync Services |
+| storage-94-data-box | Storage 94 Data Box |
+| storage-95-data-box-edge | Storage 95 Data Box Edge |
+| storage-96-azure-netapp-files | Storage 96 Azure Netapp Files |
+| storage-97-data-share-invitations | Storage 97 Data Share Invitations |
+| storage-98-data-shares | Storage 98 Data Shares |
+| web-309-azuremediaservice | Web 309 Azuremediaservice |
+| web-41-app-services | Web 41 App Services |
+| web-42-api-management-services | Web 42 Api Management Services |
+| web-43-cdn-profiles | Web 43 Cdn Profiles |
+| web-44-search-services | Web 44 Search Services |
+| web-45-notification-hubs | Web 45 Notification Hubs |
+| web-46-app-service-plans | Web 46 App Service Plans |
+| web-47-app-service-environments | Web 47 App Service Environments |
+| web-48-api-connections | Web 48 Api Connections |
+| web-49-app-service-certificates | Web 49 App Service Certificates |
+| web-50-app-service-domains | Web 50 App Service Domains |
+| web-51-media-services | Web 51 Media Services |
+| web-52-signalr | Web 52 Signalr |
+| web-53-notification-hub-namespaces | Web 53 Notification Hub Namespaces |
 
 ## Current build state
 

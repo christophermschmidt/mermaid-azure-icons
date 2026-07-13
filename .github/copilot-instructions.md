@@ -729,8 +729,16 @@ When generating an architecture diagram:
 | folder-64-non-item | Folder 64 Non Item |
 | folder-open-data-bar-20-filled | Folder Open Data Bar 20 Filled |
 | folder-open-data-bar-20-regular | Folder Open Data Bar 20 Regular |
+| folder-search-shortcut-16-filled 1 | Folder Search Shortcut 16 Filled 1 |
+| folder-search-shortcut-16-regular 1 | Folder Search Shortcut 16 Regular 1 |
+| folder-search-shortcut-20-filled 1 | Folder Search Shortcut 20 Filled 1 |
+| folder-search-shortcut-20-regular 1 | Folder Search Shortcut 20 Regular 1 |
 | folder-share-20-filled | Folder Share 20 Filled |
 | folder-share-20-regular | Folder Share 20 Regular |
+| folder-shortcut-16-filled 1 | Folder Shortcut 16 Filled 1 |
+| folder-shortcut-16-regular 1 | Folder Shortcut 16 Regular 1 |
+| folder-shortcut-20-filled 1 | Folder Shortcut 20 Filled 1 |
+| folder-shortcut-20-regular 1 | Folder Shortcut 20 Regular 1 |
 | folder-table-16-filled | Folder Table 16 Filled |
 | folder-table-16-regular | Folder Table 16 Regular |
 | folder-table-20-filled | Folder Table 20 Filled |
@@ -934,6 +942,9 @@ When generating an architecture diagram:
 | mirrored-generic-database | Mirrored Generic Database |
 | mirrored-generic-database-40 | Mirrored Generic Database 40 |
 | mirrored-generic-database-64 | Mirrored Generic Database 64 |
+| mirrored-generic-storage | Mirrored Generic Storage |
+| mirrored-generic-storage-40 | Mirrored Generic Storage 40 |
+| mirrored-generic-storage-64 | Mirrored Generic Storage 64 |
 | mobile-report | Mobile Report |
 | mobile-report-40 | Mobile Report 40 |
 | mobile-report-64 | Mobile Report 64 |
@@ -1353,6 +1364,14 @@ When generating an architecture diagram:
 | table-column-brackets-16-regular | Table Column Brackets 16 Regular |
 | table-column-brackets-20-filled | Table Column Brackets 20 Filled |
 | table-column-brackets-20-regular | Table Column Brackets 20 Regular |
+| table-column-double-chevron-link-16-filled 1 | Table Column Double Chevron Link 16 Filled 1 |
+| table-column-double-chevron-link-16-regular 1 | Table Column Double Chevron Link 16 Regular 1 |
+| table-column-double-chevron-link-20-filled 1 | Table Column Double Chevron Link 20 Filled 1 |
+| table-column-double-chevron-link-20-regular 1 | Table Column Double Chevron Link 20 Regular 1 |
+| table-column-double-chevron-shortcut-16-filled 1 | Table Column Double Chevron Shortcut 16 Filled 1 |
+| table-column-double-chevron-shortcut-16-regular 1 | Table Column Double Chevron Shortcut 16 Regular 1 |
+| table-column-double-chevron-shortcut-20-filled 1 | Table Column Double Chevron Shortcut 20 Filled 1 |
+| table-column-double-chevron-shortcut-20-regular 1 | Table Column Double Chevron Shortcut 20 Regular 1 |
 | table-column-function-16-filled | Table Column Function 16 Filled |
 | table-column-function-16-regular | Table Column Function 16 Regular |
 | table-column-function-20-filled | Table Column Function 20 Filled |
@@ -1395,6 +1414,10 @@ When generating an architecture diagram:
 | table-multiple-arrow-curved-right-20-regular | Table Multiple Arrow Curved Right 20 Regular |
 | table-multiple-arrow-curved-right-new-20-filled | Table Multiple Arrow Curved Right New 20 Filled |
 | table-multiple-arrow-curved-right-new-20-regular | Table Multiple Arrow Curved Right New 20 Regular |
+| table-shortcut-16-filled 1 | Table Shortcut 16 Filled 1 |
+| table-shortcut-16-regular 1 | Table Shortcut 16 Regular 1 |
+| table-shortcut-20-filled 1 | Table Shortcut 20 Filled 1 |
+| table-shortcut-20-regular 1 | Table Shortcut 20 Regular 1 |
 | table-text-cdc-20-filled | Table Text Cdc 20 Filled |
 | table-text-cdc-20-regular | Table Text Cdc 20 Regular |
 | table-triangle-20-filled | Table Triangle 20 Filled |
@@ -1455,6 +1478,14 @@ When generating an architecture diagram:
 | variable-library | Variable Library |
 | variable-library-40 | Variable Library 40 |
 | variable-library-64 | Variable Library 64 |
+| vehicle-car-multiple-16-filled 1 | Vehicle Car Multiple 16 Filled 1 |
+| vehicle-car-multiple-16-regular 1 | Vehicle Car Multiple 16 Regular 1 |
+| vehicle-car-multiple-20-filled 1 | Vehicle Car Multiple 20 Filled 1 |
+| vehicle-car-multiple-20-regular 1 | Vehicle Car Multiple 20 Regular 1 |
+| vehicle-car-multiple-off-16-filled 1 | Vehicle Car Multiple Off 16 Filled 1 |
+| vehicle-car-multiple-off-16-regular 1 | Vehicle Car Multiple Off 16 Regular 1 |
+| vehicle-car-multiple-off-20-filled 1 | Vehicle Car Multiple Off 20 Filled 1 |
+| vehicle-car-multiple-off-20-regular 1 | Vehicle Car Multiple Off 20 Regular 1 |
 | vehicle-ship-12-filled | Vehicle Ship 12 Filled |
 | vehicle-ship-12-regular | Vehicle Ship 12 Regular |
 | vehicle-subway-12-filled | Vehicle Subway 12 Filled |

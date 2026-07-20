@@ -48,7 +48,7 @@
     "url": "https://github.com/christophermschmidt/mermaid-azure-icons/issues"
   },
   "devDependencies": {
-    "@fabric-msft/svg-icons": "latest",
+    "@fabric-msft/svg-icons": "^8.2.0",
     "@types/node": "^20.0.0",
     "svgo": "^3.0.0",
     "ts-node": "^10.0.0",

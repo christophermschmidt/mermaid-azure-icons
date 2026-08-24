@@ -18,8 +18,8 @@
 | npm publish | ⬜ Not started | |
 
 ## Icon counts (fill in after Phase 2)
-- Fabric icons: 1444
+- Fabric icons: 1475
 - Azure icons: 465
 
 ## Last full build
-2026-06-23T16:40:19.393Z
+2026-08-24T07:00:38.211Z

@@ -1,7 +1,7 @@
 {
-  "builtAt": "2026-06-23T16:40:19.391Z",
-  "fabricIconCount": 1444,
+  "builtAt": "2026-10-19T12:26:33.475Z",
+  "fabricIconCount": 1481,
   "azureIconCount": 465,
-  "fabricSource": "@fabric-msft/svg-icons@8.1.0",
+  "fabricSource": "@fabric-msft/svg-icons@11.0.0",
   "azureSource": "benc-uk/icon-collection (azure-cds)"
 }

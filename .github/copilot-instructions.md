@@ -67,6 +67,9 @@ When generating an architecture diagram:
 
 | Slug | Service |
 |------|---------|
+| action | Action |
+| action-40 | Action 40 |
+| action-64 | Action 64 |
 | add-pipeline-20-non-item | Add Pipeline 20 Non Item |
 | add-pipeline-24-non-item | Add Pipeline 24 Non Item |
 | add-pipeline-32-non-item | Add Pipeline 32 Non Item |
@@ -464,6 +467,24 @@ When generating an architecture diagram:
 | database-dismiss-20-regular | Database Dismiss 20 Regular |
 | database-globe-20-filled | Database Globe 20 Filled |
 | database-globe-20-regular | Database Globe 20 Regular |
+| database-hub-16-color | Database Hub 16 Color |
+| database-hub-16-filled | Database Hub 16 Filled |
+| database-hub-16-regular | Database Hub 16 Regular |
+| database-hub-20-color | Database Hub 20 Color |
+| database-hub-20-filled | Database Hub 20 Filled |
+| database-hub-20-regular | Database Hub 20 Regular |
+| database-hub-24-color | Database Hub 24 Color |
+| database-hub-24-filled | Database Hub 24 Filled |
+| database-hub-24-regular | Database Hub 24 Regular |
+| database-hub-28-color | Database Hub 28 Color |
+| database-hub-28-filled | Database Hub 28 Filled |
+| database-hub-28-regular | Database Hub 28 Regular |
+| database-hub-32-color | Database Hub 32 Color |
+| database-hub-32-filled | Database Hub 32 Filled |
+| database-hub-32-regular | Database Hub 32 Regular |
+| database-hub-48-color | Database Hub 48 Color |
+| database-hub-48-filled | Database Hub 48 Filled |
+| database-hub-48-regular | Database Hub 48 Regular |
 | database-kql-20-filled | Database Kql 20 Filled |
 | database-kql-20-regular | Database Kql 20 Regular |
 | database-kql-24-filled | Database Kql 24 Filled |
@@ -719,6 +740,12 @@ When generating an architecture diagram:
 | fabric-48-color | Fabric 48 Color |
 | fabric-48-filled | Fabric 48 Filled |
 | fabric-48-regular | Fabric 48 Regular |
+| fabric-apps | Fabric Apps |
+| fabric-apps-40 | Fabric Apps 40 |
+| fabric-apps-64 | Fabric Apps 64 |
+| feature-store | Feature Store |
+| feature-store-40 | Feature Store 40 |
+| feature-store-64 | Feature Store 64 |
 | filter-settings-20-filled | Filter Settings 20 Filled |
 | filter-settings-20-regular | Filter Settings 20 Regular |
 | folder-20-non-item | Folder 20 Non Item |
@@ -729,25 +756,22 @@ When generating an architecture diagram:
 | folder-64-non-item | Folder 64 Non Item |
 | folder-open-data-bar-20-filled | Folder Open Data Bar 20 Filled |
 | folder-open-data-bar-20-regular | Folder Open Data Bar 20 Regular |
+| folder-search-shortcut-16-filled | Folder Search Shortcut 16 Filled |
+| folder-search-shortcut-16-regular | Folder Search Shortcut 16 Regular |
+| folder-search-shortcut-20-filled | Folder Search Shortcut 20 Filled |
+| folder-search-shortcut-20-regular | Folder Search Shortcut 20 Regular |
 | folder-share-20-filled | Folder Share 20 Filled |
 | folder-share-20-regular | Folder Share 20 Regular |
+| folder-shortcut-16-filled | Folder Shortcut 16 Filled |
+| folder-shortcut-16-regular | Folder Shortcut 16 Regular |
+| folder-shortcut-20-filled | Folder Shortcut 20 Filled |
+| folder-shortcut-20-regular | Folder Shortcut 20 Regular |
 | folder-table-16-filled | Folder Table 16 Filled |
 | folder-table-16-regular | Folder Table 16 Regular |
 | folder-table-20-filled | Folder Table 20 Filled |
 | folder-table-20-regular | Folder Table 20 Regular |
 | folder-table-24-filled | Folder Table 24 Filled |
 | folder-table-24-regular | Folder Table 24 Regular |
-| function-set | Function Set |
-| function-set-16-filled | Function Set 16 Filled |
-| function-set-16-regular | Function Set 16 Regular |
-| function-set-20-filled | Function Set 20 Filled |
-| function-set-20-regular | Function Set 20 Regular |
-| function-set-24-filled | Function Set 24 Filled |
-| function-set-24-regular | Function Set 24 Regular |
-| function-set-32-filled | Function Set 32 Filled |
-| function-set-32-regular | Function Set 32 Regular |
-| function-set-40 | Function Set 40 |
-| function-set-64 | Function Set 64 |
 | funnel-20-filled | Funnel 20 Filled |
 | funnel-20-regular | Funnel 20 Regular |
 | funnel-add-20-filled | Funnel Add 20 Filled |
@@ -923,17 +947,23 @@ When generating an architecture diagram:
 | lock-closed-sql-16-regular | Lock Closed Sql 16 Regular |
 | lock-closed-sql-20-filled | Lock Closed Sql 20 Filled |
 | lock-closed-sql-20-regular | Lock Closed Sql 20 Regular |
+| managed-identity | Managed Identity |
+| managed-identity-40 | Managed Identity 40 |
+| managed-identity-64 | Managed Identity 64 |
 | match-category-20-filled | Match Category 20 Filled |
 | match-category-20-regular | Match Category 20 Regular |
 | metric-sets | Metric Sets |
 | metric-sets-40 | Metric Sets 40 |
 | metric-sets-64 | Metric Sets 64 |
 | mirrored-catalog | Mirrored Catalog |
+| mirrored-catalog-40 | Mirrored Catalog 40 |
 | mirrored-catalog-64 | Mirrored Catalog 64 |
-| mirrored-catalog-65 | Mirrored Catalog 65 |
 | mirrored-generic-database | Mirrored Generic Database |
 | mirrored-generic-database-40 | Mirrored Generic Database 40 |
 | mirrored-generic-database-64 | Mirrored Generic Database 64 |
+| mirrored-generic-storage | Mirrored Generic Storage |
+| mirrored-generic-storage-40 | Mirrored Generic Storage 40 |
+| mirrored-generic-storage-64 | Mirrored Generic Storage 64 |
 | mobile-report | Mobile Report |
 | mobile-report-40 | Mobile Report 40 |
 | mobile-report-64 | Mobile Report 64 |
@@ -1086,6 +1116,24 @@ When generating an architecture diagram:
 | purview-48-color | Purview 48 Color |
 | purview-48-filled | Purview 48 Filled |
 | purview-48-regular | Purview 48 Regular |
+| rayfin-16-color | Rayfin 16 Color |
+| rayfin-16-filled | Rayfin 16 Filled |
+| rayfin-16-regular | Rayfin 16 Regular |
+| rayfin-20-color | Rayfin 20 Color |
+| rayfin-20-filled | Rayfin 20 Filled |
+| rayfin-20-regular | Rayfin 20 Regular |
+| rayfin-24-color | Rayfin 24 Color |
+| rayfin-24-filled | Rayfin 24 Filled |
+| rayfin-24-regular | Rayfin 24 Regular |
+| rayfin-28-color | Rayfin 28 Color |
+| rayfin-28-filled | Rayfin 28 Filled |
+| rayfin-28-regular | Rayfin 28 Regular |
+| rayfin-32-color | Rayfin 32 Color |
+| rayfin-32-filled | Rayfin 32 Filled |
+| rayfin-32-regular | Rayfin 32 Regular |
+| rayfin-48-color | Rayfin 48 Color |
+| rayfin-48-filled | Rayfin 48 Filled |
+| rayfin-48-regular | Rayfin 48 Regular |
 | rdl-report | Rdl Report |
 | rdl-report-40 | Rdl Report 40 |
 | rdl-report-64 | Rdl Report 64 |
@@ -1136,6 +1184,10 @@ When generating an architecture diagram:
 | rectangle-multiple-arrow-curved-right-20-regular | Rectangle Multiple Arrow Curved Right 20 Regular |
 | rectangle-multiple-diff-20-filled | Rectangle Multiple Diff 20 Filled |
 | rectangle-multiple-diff-20-regular | Rectangle Multiple Diff 20 Regular |
+| replay-flip-16-filled | Replay Flip 16 Filled |
+| replay-flip-16-regular | Replay Flip 16 Regular |
+| replay-flip-20-filled | Replay Flip 20 Filled |
+| replay-flip-20-regular | Replay Flip 20 Regular |
 | report | Report |
 | report-40 | Report 40 |
 | report-64 | Report 64 |
@@ -1353,6 +1405,14 @@ When generating an architecture diagram:
 | table-column-brackets-16-regular | Table Column Brackets 16 Regular |
 | table-column-brackets-20-filled | Table Column Brackets 20 Filled |
 | table-column-brackets-20-regular | Table Column Brackets 20 Regular |
+| table-column-double-chevron-link-16-filled | Table Column Double Chevron Link 16 Filled |
+| table-column-double-chevron-link-16-regular | Table Column Double Chevron Link 16 Regular |
+| table-column-double-chevron-link-20-filled | Table Column Double Chevron Link 20 Filled |
+| table-column-double-chevron-link-20-regular | Table Column Double Chevron Link 20 Regular |
+| table-column-double-chevron-shortcut-16-filled | Table Column Double Chevron Shortcut 16 Filled |
+| table-column-double-chevron-shortcut-16-regular | Table Column Double Chevron Shortcut 16 Regular |
+| table-column-double-chevron-shortcut-20-filled | Table Column Double Chevron Shortcut 20 Filled |
+| table-column-double-chevron-shortcut-20-regular | Table Column Double Chevron Shortcut 20 Regular |
 | table-column-function-16-filled | Table Column Function 16 Filled |
 | table-column-function-16-regular | Table Column Function 16 Regular |
 | table-column-function-20-filled | Table Column Function 20 Filled |
@@ -1395,6 +1455,10 @@ When generating an architecture diagram:
 | table-multiple-arrow-curved-right-20-regular | Table Multiple Arrow Curved Right 20 Regular |
 | table-multiple-arrow-curved-right-new-20-filled | Table Multiple Arrow Curved Right New 20 Filled |
 | table-multiple-arrow-curved-right-new-20-regular | Table Multiple Arrow Curved Right New 20 Regular |
+| table-shortcut-16-filled | Table Shortcut 16 Filled |
+| table-shortcut-16-regular | Table Shortcut 16 Regular |
+| table-shortcut-20-filled | Table Shortcut 20 Filled |
+| table-shortcut-20-regular | Table Shortcut 20 Regular |
 | table-text-cdc-20-filled | Table Text Cdc 20 Filled |
 | table-text-cdc-20-regular | Table Text Cdc 20 Regular |
 | table-triangle-20-filled | Table Triangle 20 Filled |
@@ -1449,12 +1513,24 @@ When generating an architecture diagram:
 | trophy-prohibited-24-regular | Trophy Prohibited 24 Regular |
 | trophy-prohibited-32-filled | Trophy Prohibited 32 Filled |
 | trophy-prohibited-32-regular | Trophy Prohibited 32 Regular |
-| user-data-function | User Data Function |
-| user-data-function-40 | User Data Function 40 |
-| user-data-function-64 | User Data Function 64 |
+| user-data-functions | User Data Functions |
+| user-data-functions-40 | User Data Functions 40 |
+| user-data-functions-64 | User Data Functions 64 |
 | variable-library | Variable Library |
 | variable-library-40 | Variable Library 40 |
 | variable-library-64 | Variable Library 64 |
+| vector-16-filled | Vector 16 Filled |
+| vector-16-regular | Vector 16 Regular |
+| vector-20-filled | Vector 20 Filled |
+| vector-20-regular | Vector 20 Regular |
+| vehicle-car-multiple-16-filled | Vehicle Car Multiple 16 Filled |
+| vehicle-car-multiple-16-regular | Vehicle Car Multiple 16 Regular |
+| vehicle-car-multiple-20-filled | Vehicle Car Multiple 20 Filled |
+| vehicle-car-multiple-20-regular | Vehicle Car Multiple 20 Regular |
+| vehicle-car-multiple-off-16-filled | Vehicle Car Multiple Off 16 Filled |
+| vehicle-car-multiple-off-16-regular | Vehicle Car Multiple Off 16 Regular |
+| vehicle-car-multiple-off-20-filled | Vehicle Car Multiple Off 20 Filled |
+| vehicle-car-multiple-off-20-regular | Vehicle Car Multiple Off 20 Regular |
 | vehicle-ship-12-filled | Vehicle Ship 12 Filled |
 | vehicle-ship-12-regular | Vehicle Ship 12 Regular |
 | vehicle-subway-12-filled | Vehicle Subway 12 Filled |
